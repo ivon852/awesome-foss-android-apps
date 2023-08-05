@@ -1,15 +1,17 @@
-本列表收錄好用的開源Android APP，包含F-Droid與Github上的各種開源專案，不依賴Google Play。
+# 推薦的好用開源Android APP中文列表
 
-文中提及的APP多半可以在[F-Droid](https://f-droid.org/zh_Hant/)這個開源應用程式商店取得。
+Awesome FOSS Android Apps list (Traditional Chinese) 
 
-如果APP沒上架F-Droid，您也可以透過[Obtainium](https://github.com/ImranR98/Obtainium)來下載Github、Gilab等多個網站的APK，真的不行再使用Google Play吧。
+本列表收錄的好用Android APP，全部都是自由開源軟體(Free and Open Source)，包含F-Droid與Github上的開源專案，不依賴Google Play下載。
+
+文中提及的APP多半可以在[F-Droid](https://ivonblog.com/posts/what-is-f-droid/)這個開源應用程式商店取得，有些要額外加入軟體庫。
+
+如果APP沒上架F-Droid，您也可以透過[Obtainium](https://ivonblog.com/posts/use-obtainium-to-download-foss-apps/)來下載Github、Gilab等網站發表的APK，真的不行再使用Google Play吧。
 
 
 ## 第三方應用程式商店
 
-為什麼要先推薦第三方應用程式商店呢，這裡列出的主要是F-Droid的應用商店，但是UI相較於官方版F-Droid的比較流暢，有的還支援使用者評分。
-
-自行斟酌使用之。
+第三方應用程式商店包含F-Droid的第三方前端，UI相較於官方版F-Droid的比較流暢，有的還支援使用者評分。
 
 |名稱|簡介|
 |---|---|
@@ -21,27 +23,43 @@
 
 ## 瀏覽器
 
-為何同為自由軟體的Mozilla Firefox沒有上架F-Droid呢？請看[此討論串](https://forum.f-droid.org/t/why-is-the-normal-firefox-not-available-in-f-droid/11645)，Firefox僅在Github與Google Play上架，F-Droid目前只有各家的Firefox fork。
+Android手機的瀏覽器陣營大致可以分為Chromium系(WebKit)與Firefox系(Gecko)。
+
+為何同為自由軟體的Mozilla Firefox沒有上架F-Droid呢？請看[此討論串](https://forum.f-droid.org/t/why-is-the-normal-firefox-not-available-in-f-droid/11645)，Firefox僅在Github與Google Play上架，F-Droid只有各家的fork。
 
 |名稱|簡介|
 |---|---|
-|[Mozilla Firefox](https://github.com/mozilla-mobile/firefox-android)| Firefox官方手機版，支援安裝擴充功能、同步電腦帳號。|
+|[Mozilla Firefox](https://github.com/mozilla-mobile/firefox-android)| Firefox官方手機版，支援安裝擴充功能擋廣告、同步電腦帳號。|
 |[Fennec F-Droid](https://f-droid.org/en/packages/org.mozilla.fennec_fdroid/)|基於Mozilla Firefox (Fenix)開發，強調隱私保護。支援登入Mozilla帳號同步。|
 |[Mull](https://f-droid.org/en/packages/us.spotco.fennec_dos/)|基於Mozilla Firefox (Fenix)開發，強調隱私保護。支援登入Mozilla帳號同步。|
 |[Iceraven](https://github.com/fork-maintainers/iceraven-browser)|Firefox的fork，保留舊版Firefox的功能，支援安裝更多電腦版的Firefox擴充功能，而非Firefox原版限定的擴充功能，還可以存取about:config調整細部設定。|
-|[Bromite](https://www.bromite.org/fdroid)|基於Chromium開發，強調隱私保護，可設定預設開啟電腦版網站、支援Adblocker、GreaseMonkey腳本。|
 |[FFUpdater](https://f-droid.org/packages/de.marmaro.krt.ffupdater/)|自動下載新版Mozilla Firefox APK，免透過Google Play。|
 |[FOSS Browser](https://f-droid.org/zh_Hant/packages/de.baumann.browser/)|以原生Android風格開發的瀏覽器。|
 |[Duckduckgo Browser](https://f-droid.org/packages/com.duckduckgo.mobile.android/)|基於Mozilla Firefox開發，Duckduckgo公司推出的隱私搜尋瀏覽器。|
 |[Tor Browser for Android](https://support.torproject.org/tormobile/tormobile-7/)|支援Tor協定的瀏覽器。需要啟用Guardian Project軟體庫。|
 |[Thor Browser](https://f-droid.org/en/packages/threads.thor/)| 內建支援IPNS和IPFS的瀏覽器。|
 |[Privacy Browser](https://f-droid.org/packages/com.stoutner.privacybrowser.standard/)|基於Android Webview打造的隱私瀏覽器，支援Tor協定。|
+|[Bromite](https://www.bromite.org/fdroid)|基於Chromium開發，強調隱私保護，可設定預設開啟電腦版網站、支援Adblocker、GreaseMonkey腳本。|
 |[Ungoogled Chromium](https://uc.droidware.info/fdroid.html)| 去掉Google服務的Chromium瀏覽器，支援擴充元件。|
+|[Brave Browser](https://github.com/brave/brave-browser)|基於Chromium開發的跨平台瀏覽器，有自家的同步帳號機制、搜尋引擎、加密貨幣功能。支援擋廣告、擋追蹤器。|
+|[Kiwi Browser](https://github.com/kiwibrowser/src.next)|基於Chromium開發的瀏覽器，可以裝電腦版擴充功能擋廣告。沒有同步帳號功能。|
+|[Midori Browser](https://github.com/kiwibrowser/src.next)|獨立開發的跨平台輕量瀏覽器，並非基於Chromium或Firefox。支援擋廣告。|
 
 
-## 通訊軟體
+## 網路連線 (防火牆、VPN、DNS)
 
-包含撥號、通訊錄、通訊軟體APP。
+|名稱|簡介|
+|---|---|
+|[Adaway](https://f-droid.org/zh_Hant/packages/org.adaway/)|擋廣告APP，無Root也可以使用(本機VPN)，有Root效果更好()。|
+|[Blockada](https://f-droid.org/packages/org.blokada.fem.fdroid/)|用DNS(本機VPN)擋廣告的軟體。|
+|[NetGuard](https://f-droid.org/zh_Hant/packages/eu.faircode.netguard/)|限制APP連網權限。|
+|[迷霧通 Geph](https://github.com/geph-official/geph-android)|愛沙尼亞公司推出的翻牆VPN服務。|
+|[TorServices (alpha)](https://f-droid.org/packages/org.torproject.torservices/)|Guardian Project提供的Tor網路服務，|
+|[Orbot: Tor for Android](https://support.torproject.org/tormobile/tormobile-7/)|讓手機使用Tor網路連線。|
+|[Proton VPN](https://f-droid.org/zh_Hant/packages/ch.protonvpn.android/)|Proton公司提供的隱私VPN服務。|
+
+
+## 通訊軟體 (撥號、通訊錄、通訊軟體客戶端)
 
 |名稱|簡介|
 |---|---|
@@ -50,12 +68,13 @@
 |[QKSMS](https://f-droid.org/zh_Hant/packages/com.moez.QKSMS/)|簡訊APP。|
 |[Simple Contacts Pro](https://f-droid.org/zh_Hant/packages/com.simplemobiletools.contacts.pro/)|支援匯入匯出聯絡人資料，可批量發送簡訊。|
 |[OpenContacts](https://f-droid.org/zh_Hant/packages/opencontacts.open.com.opencontacts/)|開源聯絡人APP。資料庫跟系統內建的分開，因此不會被其他APP讀取到聯絡人資訊。|
-|[K-9 Mail](https://f-droid.org/zh_Hant/packages/com.fsck.k9/)|支援多個帳號的電郵APP。|
+|[K-9 Mail](https://f-droid.org/zh_Hant/packages/com.fsck.k9/)|支援多個帳號的電郵APP，未來將與Mozilla Thunderbird合併。|
+|[Protonmail](https://github.com/ProtonMail/proton-mail-android)|加密電子郵件Protonmail的官方客戶端。|
 |[Telegram FOSS](https://f-droid.org/zh_Hant/packages/org.telegram.messenger/)|開源分支版的Telegram客戶端，跟官方的界面幾無差異。|
 |[Elements](https://f-droid.org/packages/im.vector.app/)|存取群組聊天Elements.io的官方客戶端，支援Matrix通訊協定。|
 
 
-## 主題裝飾
+## 主題裝飾 (桌布、啟動器)
 
 |名稱|簡介|
 |---|---|
@@ -81,9 +100,7 @@
 |[PlainApp](https://github.com/ismartcoding/plain-app)|界面極簡的檔案管理器，快速找出圖片與影片，還能寫markdown筆記、看RSS。該APP特色是能跑一個網頁伺服器，再從電腦網頁存取檔案。|
 
 
-## 文字編輯器
-
-包含程式碼編輯器、文件編輯器、筆記APP。
+## 文字編輯器 (程式碼編輯器、文件編輯器、筆記)
 
 |名稱|簡介|
 |---|---|
@@ -95,9 +112,7 @@
 |[Markor](https://f-droid.org/zh_Hant/packages/net.gsantner.markor/)|編輯後可即時預覽成果的Markdown編輯器。|
 
 
-## 圖像處理、影片播放器、文字編輯器。
-
-包含相機、相簿、影片播放器、編輯器。
+## 多媒體 (相機、相簿、影片播放器、影像處理)
 
 |名稱|簡介|
 |---|---|
@@ -116,8 +131,7 @@
 |[Tux Paint](https://f-droid.org/en/packages/org.tuxpaint/)|兒童繪圖程式。|
 
 
-
-## 社群媒體
+## 社群媒體 (客戶端)
 
 社群媒體有些是使用開源前端，但後端閉源的服務。例如「Tusky」是前後端都開源，而「NewPipe」後端的Youtube是閉源的網路服務。
 
@@ -148,7 +162,7 @@
 |[KurobaEx](https://f-droid.org/zh_Hant/packages/com.github.k1rakishou.chan.fdroid/)|4chan匿名板閱讀器。|
 
 
-## 遊戲
+## 遊戲 (含模擬器)
 
 有開源手遊這種東西？當然有，有的完成度很高，並非小品遊戲等級。
 
@@ -185,7 +199,6 @@
 |[Trackbook - Movement Recorder](https://f-droid.org/en/packages/org.y20k.trackbook/)|紀錄健行、出遊的移動軌跡，使用OpenStreetMap當圖資。|
 
 
-
 ## 輸入法
 
 |名稱|簡介|
@@ -207,17 +220,14 @@
 |[My Expenses](https://f-droid.org/en/packages/org.totschnig.myexpenses/)|記帳APP，可匯出為QIF、CSV。|
 
 
-## 工具程式
+## 工具程式 (以及不知道該如何分類的APP)
 
 |名稱|簡介|
 |---|---|
-|[Adaway](https://f-droid.org/zh_Hant/packages/org.adaway/)|擋廣告APP，無Root也可以使用，有Root效果更好。|
-|[Blockada](https://f-droid.org/packages/org.blokada.fem.fdroid/)|用DNS(VPN)擋廣告的軟體。|
 |[microG](https://microg.org/fdroid.html)|取代Google Play服務的開源程式，德國製造。|
 |[Snapdrop for Android](https://f-droid.org/zh_Hant/packages/com.fmsys.snapdrop/)|在多個裝置間透過Wifi傳送檔案。|
 |[OCR](https://f-droid.org/zh_Hant/packages/io.github.subhamtyagi.ocr/)|從圖片中識別文字，使用Google Tesseract引擎。|
 |[Neo Backup](https://f-droid.org/en/packages/com.machiav3lli.backup/)|備份APP和資料，需要Root。|
-|[NetGuard](https://f-droid.org/zh_Hant/packages/eu.faircode.netguard/)|限制APP連網權限。|
 |[UnitsTool](https://f-droid.org/zh_Hant/packages/com.unitstool/)|轉換溫度、物理量、貨幣等單位。|
 |[LibreTranslator](https://www.f-droid.org/zh_Hant/packages/de.beowulf.libretranslater/)|使用Libre Translate API的翻譯軟體。|
 |[KDE Connect](https://f-droid.org/packages/org.kde.kdeconnect_tp/)|讓手機跟電腦傳輸檔案、同步通知。|
@@ -228,12 +238,9 @@
 |[Tasks.org](https://f-droid.org/zh_Hant/packages/org.tasks/)|開源的線上待辦事項APP。|
 |[Bitwarden](https://mobileapp.bitwarden.com/fdroid/)|跨平台儲存密碼、自動填入密碼。|
 |[AnkiDroid](https://f-droid.org/packages/com.ichi2.anki/)|用單字卡學語言單字，可配合Anki電腦版使用。|
-|[Termux](https://f-droid.org/zh_Hant/packages/com.termux/)|有套件管理系統的終端機模擬器，可執行桌面Linux程式。|
-|[Terminal Emulator](https://f-droid.org/zh_Hant/packages/com.termoneplus/)|終端機模擬器，配合ADB Shell使用。|
+|[Termux](https://f-droid.org/zh_Hant/packages/com.termux/)|有自己一套套件管理器的終端機模擬器，可執行桌面Linux程式。|
+|[Terminal Emulator](https://f-droid.org/zh_Hant/packages/com.termoneplus/)|終端機模擬器，配合Android Shell使用。|
 |[AVNC](https://f-droid.org/zh_Hant/packages/com.gaurav.avnc/)|VNC遠端桌面檢視器，支援虛擬滑鼠鍵盤。|
 |[aFreeRDP](https://f-droid.org/zh_Hant/packages/com.freerdp.afreerdp/)|RDP遠端桌面檢視器。|
 |[Shelter](https://f-droid.org/en/packages/net.typeblog.shelter/)|利用Android的Work Profile功能，以沙盒形式隔離APP，可另外設定檔案互通。|
 |[Insular](https://f-droid.org/packages/com.oasisfeng.island.fdroid/)|類似Google Play上的"Island APP"，移除不必要的Google組件。利用Android的Work Profile功能，以沙盒形式隔離APP，選擇性給某些APP啟用VPN連線。|
-|[TorServices (alpha)](https://f-droid.org/packages/org.torproject.torservices/)|Guardian Project提供的Tor網路服務，|
-|[Orbot: Tor for Android](https://support.torproject.org/tormobile/tormobile-7/)|讓手機使用Tor網路連線。|
-|[Proton VPN](https://f-droid.org/zh_Hant/packages/ch.protonvpn.android/)|Proton公司提供的隱私VPN服務。|
