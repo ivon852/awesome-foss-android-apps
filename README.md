@@ -53,6 +53,7 @@ Android手機的瀏覽器陣營大致可以分為Chromium系(WebKit)與Firefox�
 |[Adaway](https://f-droid.org/zh_Hant/packages/org.adaway/)|擋廣告APP，無Root也可以使用(本機VPN)，有Root效果更好()。|
 |[Blockada](https://f-droid.org/packages/org.blokada.fem.fdroid/)|用DNS(本機VPN)擋廣告的軟體。|
 |[NetGuard](https://f-droid.org/zh_Hant/packages/eu.faircode.netguard/)|限制APP連網權限。|
+|[OpenVPN](https://github.com/schwabe/ics-openvpn)|跨平台VPN軟體OpenVPN官方Android版客戶端。|
 |[迷霧通 Geph](https://github.com/geph-official/geph-android)|愛沙尼亞公司推出的翻牆VPN服務。|
 |[TorServices (alpha)](https://f-droid.org/packages/org.torproject.torservices/)|Guardian Project提供的Tor網路服務，|
 |[Orbot: Tor for Android](https://support.torproject.org/tormobile/tormobile-7/)|讓手機使用Tor網路連線。|
@@ -208,7 +209,7 @@ Android手機的瀏覽器陣營大致可以分為Chromium系(WebKit)與Firefox�
 |[OpenBoard](https://f-droid.org/packages/org.dslul.openboard.inputmethod.latin/)| 基於Gboard開發的英文鍵盤。|
 |[Simple Keyboard](https://f-droid.org/zh_Hant/packages/com.simplemobiletools.keyboard/)|使用質感設計的簡易英文輸入法。|
 |[中州韻TRIME](https://f-droid.org/zh_Hant/packages/com.osfans.trime/)|支援強大自定義配置的中文輸入法框架，使用RIME引擎。注音使用者請使用「洋蔥注音輸入方案」。|
-|[樸實注音鍵盤](https://f-droid.org/zh_Hans/packages/org.ghostsinthelab.apps.guilelessbopomofo/)|新酷音輸入法作者開發的極簡注音輸入法。|
+|[樸實注音鍵盤](https://f-droid.org/zh_Hans/packages/org.ghostsinthelab.apps.guilelessbopomofo/)|基於新酷音輸入法開發的極簡注音輸入法。|
 
 
 ## 理財
@@ -244,3 +245,4 @@ Android手機的瀏覽器陣營大致可以分為Chromium系(WebKit)與Firefox�
 |[aFreeRDP](https://f-droid.org/zh_Hant/packages/com.freerdp.afreerdp/)|RDP遠端桌面檢視器。|
 |[Shelter](https://f-droid.org/en/packages/net.typeblog.shelter/)|利用Android的Work Profile功能，以沙盒形式隔離APP，可另外設定檔案互通。|
 |[Insular](https://f-droid.org/packages/com.oasisfeng.island.fdroid/)|類似Google Play上的"Island APP"，移除不必要的Google組件。利用Android的Work Profile功能，以沙盒形式隔離APP，選擇性給某些APP啟用VPN連線。|
+|[Screen Orientation Control](https://github.com/ohmae/orientation-faker)|螢幕強制旋轉軟體。|
