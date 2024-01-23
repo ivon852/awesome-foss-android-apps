@@ -182,7 +182,7 @@ Android手機的瀏覽器陣營大致可以分為Chromium系(WebKit)與Firefox�
 
 有開源手遊這種東西？當然有，有的完成度很高，並非小品遊戲等級。
 
-因數量過多，請看[Android開源手機遊戲列表](/posts/foss-android-games)
+因數量過多，請看[Android開源手機遊戲列表](https://ivonblog.com/posts/foss-android-games)
 
 
 ## 導航
