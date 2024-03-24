@@ -8,6 +8,8 @@ Awesome FOSS Android Apps list (Traditional Chinese)
 
 如果APP沒上架F-Droid，您也可以透過[Obtainium](https://ivonblog.com/posts/use-obtainium-to-download-foss-apps/)來下載Github、Gilab等網站發表的APK，真的不行再使用Google Play吧。
 
+
+
 ## 第三方應用程式商店
 
 第三方應用程式商店包含F-Droid的第三方前端，UI相較於官方版F-Droid的比較流暢，有的還支援使用者評分。
@@ -154,9 +156,9 @@ Android手機的瀏覽器陣營大致可以分為Chromium系(WebKit)與Firefox�
 |[Youtube ReVanced / ReVance Manager](https://ivonblog.com/posts/youtube-revanced/)|破解版的官方Youtube。|
 |[NewPipe](https://f-droid.org/zh_Hant/packages/org.schabi.newpipe/)|免登入觀看Youtube/PeerTube影片，無廣告、可下載影片、支援背景播放。|
 |[PipePipe](https://f-droid.org/zh_Hant/packages/InfinityLoop1309.NewPipeEnhanced/)|類似NewPipe，免登入觀看Bilibili/Niconico/Youtube影片。|
-|[Seal](https://github.com/JunkFood02/Seal)|採用yt-dlp技術的影片下載器。|
+|[Seal](https://github.com/JunkFood02/Seal)|採用yt-dlp技術的YouTube影片下載器。|
 |[InnteTube](https://f-droid.org/packages/com.zionhuang.music/)|無廣告聆聽Youtube Music，支援播放歌詞、Android Auto。|
-|[ViMusic](https://f-droid.org/zh_Hant/packages/it.vfsfitvnm.vimusic/)|無廣告聆聽Youtube Music，界面十分精簡，支援Android Auto。|
+|[RiMusic](https://github.com/fast4x/RiMusic)|無廣告聆聽Youtube Music，界面十分精簡，支援Android Auto。取代已經停止開發的ViMusic。|
 |[SpotTube](https://github.com/KRTirtho/spotube)|無廣告聆聽Youtube Music，配合Spotify補充歌詞。|
 |[Blackhole](https://github.com/Sangwan5688/BlackHole)|免費音樂串流服務，背後服務使用的是JioSaavn和Youtube Music，因此會跑出許多印度歌。|
 |[Thorium a PeerTube client](https://f-droid.org/zh_Hant/packages/net.schueller.peertube/)|觀看PeerTube的客戶端，需要手動加入站點。|
@@ -167,8 +169,7 @@ Android手機的瀏覽器陣營大致可以分為Chromium系(WebKit)與Firefox�
 |[GitNex for Gitea](https://f-droid.org/zh_Hant/packages/org.mian.gitnex/)|Gitea客戶端，支援多樣操作。|
 |[Pixiv Func](https://f-droid.org/zh_Hant/packages/site.xiaocao.pixiv/index.html)|第三方Pixiv客戶端。|
 |[木之子漫畫閱讀器](https://f-droid.org/zh_Hant/packages/com.ero.kinoko/)|支援多個線上漫畫平台，可閱覽或下載漫畫。|
-|[Tachiyomi](https://staging.f-droid.org/en/packages/eu.kanade.tachiyomi/)|免費漫畫閱讀器，支援多個線上平台。|
-|[Mangayomi](https://github.com/kodjodevf/mangayomi)|跨平台版的Tachiyomi，支援許多線上漫畫與動畫平台。|
+|[Tachiyomi](https://staging.f-droid.org/en/packages/eu.kanade.tachiyomi/)|免費漫畫閱讀器，可以線上瀏覽與下載漫畫，支援多個線上平台。有非常多的分支版本，[Mihon](/posts/https://github.com/mihonapp/mihon)為官方原版的繼承者。|
 |[Hendroid](https://f-droid.org/zh_Hant/packages/org.nonononoki.hendroid/)|閱讀多個H漫網站的客戶端。|
 |[EhViewer overhauled](https://github.com/Ehviewer-Overhauled/Ehviewer)|採用Material Design設計的E-hentai閱讀器。|
 |[Boorusphere](https://github.com/nullxception/boorusphere)|界面簡潔的動漫booru貼圖站閱讀器。|
@@ -231,6 +232,9 @@ Android手機的瀏覽器陣營大致可以分為Chromium系(WebKit)與Firefox�
 |[Lingshot](https://github.com/CharlesMoreira1/lingshot)|圖片翻譯軟體。|
 |[LibreTranslator](https://www.f-droid.org/zh_Hant/packages/de.beowulf.libretranslater/)|使用Libre Translate API的翻譯軟體。|
 |[KDE Connect](https://f-droid.org/packages/org.kde.kdeconnect_tp/)|讓手機跟電腦傳輸檔案、同步通知。|
+|[LocalSend](https://github.com/localsend/localsend)|跨平台無線傳檔軟體。|
+|[Aria2App](https://github.com/devgianlu/Aria2App)|基於Aria2開發的下載管理器，支援BT種子和斷點續傳。|
+|[LibreTorrent](https://f-droid.org/zh_Hant/packages/org.proninyaroslav.libretorrent/)|BT種子與磁力連結下載器。|
 |[Limbo x86 PC Emulator](https://f-droid.org/zh_Hant/packages/com.limbo.emu.main/)|使用QEMU虛擬機模擬x86電腦系統。|
 |[Moonlight Game Streaming](https://f-droid.org/en/packages/com.limelight/)|串流遊玩電腦上的遊戲。|
 |[Fossify Calendar](https://f-droid.org/zh_Hant/packages/org.fossify.calendar/)|簡易離線月曆APP，可用日月年檢視行程。|
@@ -247,3 +251,4 @@ Android手機的瀏覽器陣營大致可以分為Chromium系(WebKit)與Firefox�
 |[Screen Orientation Control](https://github.com/ohmae/orientation-faker)|螢幕強制旋轉軟體。|
 |[Cross Platform Disk Test](https://github.com/maxim-saplin/CrossPlatformDiskTest)|測試硬碟讀寫速度的跑分軟體。|
 |[xOPS: Cross-Platform CPU Benchmark](https://github.com/maxim-saplin/xOPS-App)|測試CPU運算速度的跑分軟體，支援壓力測試。|
+|[Exodus](https://github.com/Exodus-Privacy/exodus)|顯示APP含有哪些追蹤器，保護使用者隱私。|
