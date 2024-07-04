@@ -9,7 +9,6 @@ Awesome FOSS Android Apps list (Traditional Chinese)
 如果APP沒上架F-Droid，您也可以透過[Obtainium](https://ivonblog.com/posts/use-obtainium-to-download-foss-apps/)來下載Github、Gilab等網站發表的APK，真的不行再使用Google Play吧。
 
 
-
 ## 第三方應用程式商店
 
 第三方應用程式商店包含F-Droid的第三方前端，UI相較於官方版F-Droid的比較流暢，有的還支援使用者評分。
@@ -19,7 +18,7 @@ Awesome FOSS Android Apps list (Traditional Chinese)
 |[Neo Store](https://f-droid.org/zh_Hant/packages/com.machiav3lli.fdroid/)|內建許多第三方軟體庫的F-Droid客戶端，Droidfy的後繼者。|
 |[G-Droid](https://f-droid.org/en/packages/org.gdroid.gdroid/)|含有使用者評分功能的第三方F-Droid客戶端。|
 |[Aurora Store](https://f-droid.org/zh_Hant/packages/com.aurora.store/)|免登入下載Google Play上的免費APP。|
-|[Obtainium](https://github.com/ImranR98/Obtainium)|直接從軟體開發者的儲存庫下載APP，繞過F-Droid的版本。例如使用者自行填入Github儲存庫，Obtainium就會自動檢查新版本。|
+|[Obtainium](https://github.com/ImranR98/Obtainium)|直接從軟體開發者的儲存庫下載APP，繞過F-Droid的版本。例如使用者填入Github儲存庫，Obtainium就會自動檢查新版本。|
 
 
 ## 瀏覽器
@@ -47,9 +46,12 @@ Android手機的瀏覽器陣營大致可以分為Chromium系(WebKit)與Firefox�
 |[Kiwi Browser](https://github.com/kiwibrowser/src.next)|基於Chromium開發的瀏覽器，可以裝電腦版擴充功能擋廣告。沒有同步帳號功能。|
 |[Midori Browser](https://github.com/kiwibrowser/src.next)|獨立開發的跨平台輕量瀏覽器，並非基於Chromium或Firefox。支援擋廣告。|
 |[EinkBro](https://f-droid.org/zh_Hant/packages/info.plateaukao.einkbro/)|專為電子紙閱讀器設計的瀏覽器。|
+|[TVBro](https://github.com/truefedex/tv-bro)|專為Android TV設計的瀏覽器。|
 
 
-## 網路連線 (防火牆、VPN、DNS)
+## 網路連線
+
+(防火牆、VPN、DNS)
 
 |名稱|簡介|
 |---|---|
@@ -60,10 +62,12 @@ Android手機的瀏覽器陣營大致可以分為Chromium系(WebKit)與Firefox�
 |[迷霧通 Geph](https://github.com/geph-official/geph-android)|愛沙尼亞公司推出的翻牆VPN服務。|
 |[TorServices (alpha)](https://f-droid.org/packages/org.torproject.torservices/)|Guardian Project提供的Tor網路服務，|
 |[Orbot: Tor for Android](https://support.torproject.org/tormobile/tormobile-7/)|讓手機使用Tor網路連線。|
-|[Proton VPN](https://f-droid.org/zh_Hant/packages/ch.protonvpn.android/)|Proton公司提供的隱私VPN服務。|
+|[Proton VPN](https://f-droid.org/zh_Hant/packages/ch.protonvpn.android/)|Proton公司提供的隱私VPN服務，支援KillSwitch和Port Forwarding。|
 
 
-## 通訊軟體 (撥號、通訊錄、通訊軟體客戶端)
+## 通訊軟體
+
+(撥號、通訊錄、通訊軟體客戶端)
 
 |名稱|簡介|
 |---|---|
@@ -77,7 +81,9 @@ Android手機的瀏覽器陣營大致可以分為Chromium系(WebKit)與Firefox�
 |[Elements](https://f-droid.org/packages/im.vector.app/)|存取群組聊天Elements.io的官方客戶端，支援Matrix通訊協定。|
 
 
-## 主題裝飾 (桌布、啟動器)
+## 主題裝飾
+
+(桌布、啟動器)
 
 |名稱|簡介|
 |---|---|
@@ -87,6 +93,7 @@ Android手機的瀏覽器陣營大致可以分為Chromium系(WebKit)與Firefox�
 |[Neo Launcher](https://github.com/NeoApplications/Neo-Launcher)|支援自訂APP分類、自訂APP名稱、隱藏APP、手勢、快捷抽屜、桌面搜尋引擎等多樣功能的桌面啟動器。|
 |[Lawnchair](https://github.com/LawnchairLauncher/lawnchair)|類似Nova Launcher的桌面啟動器。F-Droid版已不再更新，需到Github下載APK。|
 |[KISS Launcher](https://f-droid.org/packages/fr.neamar.kiss/)|極簡風格桌面。|
+|[FLauncher](https://gitlab.com/flauncher/flauncher)|Android TV專用的第三方桌面。|
 |[Bliss Launcher](https://f-droid.org/zh_Hant/packages/foundation.e.blisslauncher/)|/e/ OS的初版桌面。|
 |[Rootless Pixel Launcher](https://f-droid.org/zh_Hant/packages/amirz.rootless.nexuslauncher/)|Pixel手機風格的桌面。|
 |[Last-Launcher](https://f-droid.org/zh_Hant/packages/io.github.subhamtyagi.lastlauncher/)|只有文字的極簡桌面。|
@@ -104,7 +111,9 @@ Android手機的瀏覽器陣營大致可以分為Chromium系(WebKit)與Firefox�
 |[PlainApp](https://github.com/ismartcoding/plain-app)|界面極簡的檔案管理器，快速找出圖片與影片，還能寫markdown筆記、看RSS。該APP特色是能跑一個網頁伺服器，再從電腦網頁存取檔案。|
 
 
-## 文字編輯器 (程式碼編輯器、文件編輯器、筆記)
+## 文字編輯器
+
+(程式碼編輯器、文件編輯器、筆記)
 
 |名稱|簡介|
 |---|---|
@@ -117,7 +126,9 @@ Android手機的瀏覽器陣營大致可以分為Chromium系(WebKit)與Firefox�
 |[Markor](https://f-droid.org/zh_Hant/packages/net.gsantner.markor/)|編輯後可即時預覽成果的Markdown編輯器。|
 
 
-## 多媒體 (相機、相簿、影片播放器、影像處理)
+## 多媒體
+
+(相機、相簿、影片播放器、影像處理)
 
 |名稱|簡介|
 |---|---|
@@ -142,7 +153,9 @@ Android手機的瀏覽器陣營大致可以分為Chromium系(WebKit)與Firefox�
 |[Tux Paint](https://f-droid.org/en/packages/org.tuxpaint/)|兒童繪圖程式。|
 
 
-## 社群媒體與影音串流 (客戶端)
+## 社群媒體與影音串流
+
+(客戶端)
 
 社群媒體有些是使用開源前端，但後端閉源的服務。例如「Tusky」是前後端都開源，而「NewPipe」後端的Youtube是閉源的網路服務。
 
@@ -153,11 +166,11 @@ Android手機的瀏覽器陣營大致可以分為Chromium系(WebKit)與Firefox�
 |[Infinity for Reddit](https://f-droid.org/zh_Hant/packages/ml.docilealligator.infinityforreddit/)|第三方Reddit瀏覽APP，自動去廣告。註：由於Reddit API政策改變的關係，Infinity已變成付費軟體，個人使用的話建議自行[編譯Infinity](https://ivonblog.com/posts/compile-infinity-for-reddit/)。|
 |[Fritter](https://f-droid.org/zh_Hant/packages/com.jonjomckay.fritter/)|免登入查看Twitter上的熱門話題。|
 |[LBRY F-Droid](https://f-droid.org/zh_Hant/packages/io.lbry.browser/)|區塊鏈影音平台LBRY的官方客戶端。|
-|[Youtube ReVanced / ReVance Manager](https://ivonblog.com/posts/youtube-revanced/)|破解版的官方Youtube。|
+|[Youtube ReVanced/ReVanced Manager](https://github.com/ReVanced/revanced-manager)|破解版的官方Youtube，去廣告、隱藏任意版面。|
 |[NewPipe](https://f-droid.org/zh_Hant/packages/org.schabi.newpipe/)|免登入觀看Youtube/PeerTube影片，無廣告、可下載影片、支援背景播放。|
-|[PipePipe](https://f-droid.org/zh_Hant/packages/InfinityLoop1309.NewPipeEnhanced/)|類似NewPipe，免登入觀看Bilibili/Niconico/Youtube影片。|
+|[PipePipe](https://f-droid.org/zh_Hant/packages/InfinityLoop1309.NewPipeEnhanced/)|NewPipe的分支版，免登入觀看Bilibili/Niconico/Youtube影片。|
 |[Seal](https://github.com/JunkFood02/Seal)|採用yt-dlp技術的YouTube影片下載器。|
-|[InnteTube](https://f-droid.org/packages/com.zionhuang.music/)|無廣告聆聽Youtube Music，支援播放歌詞、Android Auto。|
+|[InnerTune](https://f-droid.org/packages/com.zionhuang.music/)|無廣告聆聽Youtube Music，支援播放歌詞、Android Auto。|
 |[RiMusic](https://github.com/fast4x/RiMusic)|無廣告聆聽Youtube Music，界面十分精簡，支援Android Auto。取代已經停止開發的ViMusic。|
 |[SpotTube](https://github.com/KRTirtho/spotube)|無廣告聆聽Youtube Music，配合Spotify補充歌詞。|
 |[Blackhole](https://github.com/Sangwan5688/BlackHole)|免費音樂串流服務，背後服務使用的是JioSaavn和Youtube Music，因此會跑出許多印度歌。|
@@ -167,11 +180,12 @@ Android手機的瀏覽器陣營大致可以分為Chromium系(WebKit)與Firefox�
 |[GitHub](https://f-droid.org/zh_Hant/packages/com.github.mobile/)|Github官方客戶端，支援線上管理issues等操作。|
 |[LabCoat](https://f-droid.org/zh_Hant/packages/com.commit451.gitlab/)|Gitlab官方客戶端，查看commits和issues。|
 |[GitNex for Gitea](https://f-droid.org/zh_Hant/packages/org.mian.gitnex/)|Gitea客戶端，支援多樣操作。|
+|[Pixiv-Shaft](https://github.com/CeuiLiSA/Pixiv-Shaft)|第三方Pixiv客戶端。|
 |[Pixiv Func](https://f-droid.org/zh_Hant/packages/site.xiaocao.pixiv/index.html)|第三方Pixiv客戶端。|
 |[木之子漫畫閱讀器](https://f-droid.org/zh_Hant/packages/com.ero.kinoko/)|支援多個線上漫畫平台，可閱覽或下載漫畫。|
 |[Tachiyomi](https://staging.f-droid.org/en/packages/eu.kanade.tachiyomi/)|免費漫畫閱讀器，可以線上瀏覽與下載漫畫，支援多個線上平台。有非常多的分支版本，[Mihon](/posts/https://github.com/mihonapp/mihon)為官方原版的繼承者。|
 |[Hendroid](https://f-droid.org/zh_Hant/packages/org.nonononoki.hendroid/)|閱讀多個H漫網站的客戶端。|
-|[EhViewer overhauled](https://github.com/Ehviewer-Overhauled/Ehviewer)|採用Material Design設計的E-hentai閱讀器。|
+|[EhViewer overhauled](https://github.com/FooIbar/EhViewer)|採用Material Design設計的E-hentai閱讀器。|
 |[Boorusphere](https://github.com/nullxception/boorusphere)|界面簡潔的動漫booru貼圖站閱讀器。|
 |[LoliSnatcher](https://github.com/NO-ob/LoliSnatcher_Droid)|支援多個動漫booru貼圖站的閱讀器，可搭配Hydrus Network使用。|
 |[Hacki for Hacker News](https://f-droid.org/zh_Hant/packages/com.jiaqifeng.hacki/)|Hacker News閱讀器。|
@@ -195,19 +209,19 @@ Android手機的瀏覽器陣營大致可以分為Chromium系(WebKit)與Firefox�
 |[Street­Complete](https://f-droid.org/packages/de.westnordost.streetcomplete/)|回答簡單問題，改善OpenStreeMap圖資。|
 |[Vespucci](https://f-droid.org/packages/de.blau.android/)|隨時隨地編輯OpenStreetMap圖資。|
 |[GPSLogger](https://f-droid.org/zh_Hant/packages/com.mendhak.gpslogger/)|自動在背景紀錄GPS軌跡。|
-|[OpenTracks](https://f-droid.org/en/packages/de.dennisguse.opentracks/)|紀錄體能運動紀錄。|
 |[Trackbook - Movement Recorder](https://f-droid.org/en/packages/org.y20k.trackbook/)|紀錄健行、出遊的移動軌跡，使用OpenStreetMap當圖資。|
 
 
-## 輸入法
+## 健康
 
 |名稱|簡介|
 |---|---|
-|[Hacker's Keyboard](https://f-droid.org/packages/org.pocketworkstation.pckeyboard/)|內建許多電腦快捷鍵的英文輸入法，適合用於遠端桌面。|
-|[AnySoftkeyboard](https://f-droid.org/packages/com.menny.android.anysoftkeyboard/)|支援多語言的英文鍵盤。|
-|[OpenBoard](https://f-droid.org/packages/org.dslul.openboard.inputmethod.latin/)| 基於Gboard開發的英文鍵盤。|
-|[中州韻TRIME](https://f-droid.org/zh_Hant/packages/com.osfans.trime/)|支援強大自定義配置的中文輸入法框架，使用RIME引擎。注音使用者請使用「洋蔥注音輸入方案」。|
-|[樸實注音鍵盤](https://f-droid.org/zh_Hans/packages/org.ghostsinthelab.apps.guilelessbopomofo/)|基於新酷音輸入法開發的極簡注音輸入法。|
+|[Noice: Natural Calming Noise](https://f-droid.org/packages/com.github.ashutoshgngwr.noice/)|白噪音生成器兼鬧鐘，支援Chromecast。|
+|[Gadgetbridge](https://f-droid.org/zh_Hant/packages/nodomain.freeyourgadget.gadgetbridge/)|智慧手錶與智慧手環追蹤工具，取代原廠的專有軟體。|
+|[OpenTracks](https://f-droid.org/en/packages/de.dennisguse.opentracks/)|紀錄體能運動紀錄。|
+|[Fridgey](https://f-droid.org/zh_Hant/packages/lying.fengfeng.foodrecords/)|紀錄食材照片。|
+|[Flexify](https://github.com/brandonp2412/Flexify)|追蹤健身進度。|
+|[Minimalist Pomodoro Timer](https://github.com/adrcotfas/Goodtime?tab=readme-ov-file)|蕃茄鐘小工具。|
 
 
 ## 理財
@@ -219,7 +233,21 @@ Android手機的瀏覽器陣營大致可以分為Chromium系(WebKit)與Firefox�
 |[My Expenses](https://f-droid.org/en/packages/org.totschnig.myexpenses/)|記帳APP，可匯出為QIF、CSV。|
 
 
-## 工具程式 (以及不知道該如何分類的APP)
+## 輸入法
+
+|名稱|簡介|
+|---|---|
+|[Hacker's Keyboard](https://f-droid.org/packages/org.pocketworkstation.pckeyboard/)|內建許多電腦快捷鍵的英文輸入法，適合用於遠端桌面。|
+|[AnySoftkeyboard](https://f-droid.org/packages/com.menny.android.anysoftkeyboard/)|支援多語言的英文鍵盤。|
+|[OpenBoard](https://f-droid.org/packages/org.dslul.openboard.inputmethod.latin/)| 基於Gboard開發的英文鍵盤。|
+|[中州韻TRIME](https://f-droid.org/zh_Hant/packages/com.osfans.trime/)|支援強大自定義配置的中文輸入法框架，使用RIME引擎。注音使用者請使用「洋蔥注音輸入方案」。|
+|[樸實注音鍵盤](https://f-droid.org/zh_Hans/packages/org.ghostsinthelab.apps.guilelessbopomofo/)|基於新酷音輸入法開發的極簡注音輸入法。|
+|[小企鵝Fcitx5 for Android](https://github.com/fcitx5-android/fcitx5-android)|移植自Linux系統的輸入法，支援拼音、倉頡、嘸蝦米等輸入方案。|
+
+
+## 工具程式
+
+ (以及不知道該如何分類的APP)
 
 |名稱|簡介|
 |---|---|
@@ -244,8 +272,11 @@ Android手機的瀏覽器陣營大致可以分為Chromium系(WebKit)與Firefox�
 |[Termux](https://f-droid.org/zh_Hant/packages/com.termux/)|有自己一套套件管理器的終端機模擬器，可執行桌面Linux程式。|
 |[Terminal Emulator](https://f-droid.org/zh_Hant/packages/com.termoneplus/)|終端機模擬器，配合Android Shell使用。|
 |[AVNC](https://f-droid.org/zh_Hant/packages/com.gaurav.avnc/)|VNC遠端桌面檢視器，支援虛擬滑鼠鍵盤。|
+|[bVNC](https://github.com/iiordanov/remote-desktop-clients)|VNC、RDP、SPICE、Proxmox遠端桌面檢視器，支援虛擬滑鼠鍵盤。|
 |[aFreeRDP](https://f-droid.org/zh_Hant/packages/com.freerdp.afreerdp/)|RDP遠端桌面檢視器。|
 |[ScreenStream](https://f-droid.org/zh_Hant/packages/info.dvkr.screenstream/)|透過Wifi串流手機畫面，並用瀏覽器檢視。|
+|[Bluetooth Remote](https://f-droid.org/packages/com.atharok.btremote/)|讓手機變成Android TV的藍芽遙控器。|
+|[IRRemote](https://gitlab.com/divested-mobile/irremote)|使用手機紅外線遠端控制Android TV。|
 |[Shelter](https://f-droid.org/en/packages/net.typeblog.shelter/)|利用Android的Work Profile功能，以沙盒形式隔離APP，可另外設定檔案互通。|
 |[Insular](https://f-droid.org/packages/com.oasisfeng.island.fdroid/)|類似Google Play上的"Island APP"，移除不必要的Google組件。利用Android的Work Profile功能，以沙盒形式隔離APP，選擇性給某些APP啟用VPN連線。|
 |[Screen Orientation Control](https://github.com/ohmae/orientation-faker)|螢幕強制旋轉軟體。|
