@@ -33,17 +33,12 @@ Android手機的瀏覽器陣營大致可以分為Chromium系(WebKit)與Firefox�
 |[Fennec F-Droid](https://f-droid.org/en/packages/org.mozilla.fennec_fdroid/)|基於Mozilla Firefox (Fenix)開發，強調隱私保護。支援登入Mozilla帳號同步。|
 |[Mull](https://f-droid.org/en/packages/us.spotco.fennec_dos/)|基於Mozilla Firefox (Fenix)開發，強調隱私保護。支援登入Mozilla帳號同步。|
 |[Iceraven](https://github.com/fork-maintainers/iceraven-browser)|Firefox的fork，保留舊版Firefox的功能，支援安裝更多電腦版的Firefox擴充功能，而非Firefox原版限定的擴充功能，還可以存取about:config調整細部設定。|
-|[FFUpdater](https://f-droid.org/packages/de.marmaro.krt.ffupdater/)|自動下載新版Mozilla Firefox APK，免透過Google Play。|
-|[FOSS Browser](https://f-droid.org/zh_Hant/packages/de.baumann.browser/)|以原生Android風格開發的瀏覽器。|
-|[Duckduckgo Browser](https://f-droid.org/packages/com.duckduckgo.mobile.android/)|基於Mozilla Firefox開發，Duckduckgo公司推出的隱私搜尋瀏覽器。|
 |[Tor Browser for Android](https://support.torproject.org/tormobile/tormobile-7/)|支援Tor協定的瀏覽器。需要啟用Guardian Project軟體庫。|
-|[Thor Browser](https://f-droid.org/en/packages/threads.thor/)| 內建支援IPNS和IPFS的瀏覽器。|
-|[Privacy Browser](https://f-droid.org/packages/com.stoutner.privacybrowser.standard/)|基於Android Webview打造的隱私瀏覽器，支援Tor協定。|
-|[Bromite](https://www.bromite.org/fdroid)|基於Chromium開發，強調隱私保護，可設定預設開啟電腦版網站、支援Adblocker、GreaseMonkey腳本。|
-|[Cromite](https://github.com/uazo/cromite)|Bromite強化版，強調隱私保護，支援更多Adblocker清單。|
+|[Cromite](https://github.com/uazo/cromite)|Bromite繼承者，強調隱私保護，支援Adblocker清單與自訂指令稿。開發者另提供vanilla版本的Chromium。|
+|[Vanadium](https://github.com/GrapheneOS/Vanadium)|GrapheneOS開發的Chromium瀏覽器，強調隱私保護。|
 |[Ungoogled Chromium](https://github.com/ungoogled-software/ungoogled-chromium-android)| 去掉Google服務的Chromium瀏覽器，支援擴充元件。|
 |[Brave Browser](https://github.com/brave/brave-browser)|基於Chromium開發的跨平台瀏覽器，有自家的同步帳號機制、搜尋引擎、加密貨幣功能。支援擋廣告、擋追蹤器。|
-|[Kiwi Browser](https://github.com/kiwibrowser/src.next)|基於Chromium開發的瀏覽器，可以裝電腦版擴充功能擋廣告。沒有同步帳號功能。|
+|[Kiwi Browser](https://github.com/kiwibrowser/src.next)|基於Chromium開發的瀏覽器，可以裝電腦版擴充功能擋廣告。沒有同步帳號功能，且會蒐集使用者搜尋時的資料。|
 |[Midori Browser](https://github.com/kiwibrowser/src.next)|獨立開發的跨平台輕量瀏覽器，並非基於Chromium或Firefox。支援擋廣告。|
 |[EinkBro](https://f-droid.org/zh_Hant/packages/info.plateaukao.einkbro/)|專為電子紙閱讀器設計的瀏覽器。|
 |[TVBro](https://github.com/truefedex/tv-bro)|專為Android TV設計的瀏覽器。|
@@ -134,7 +129,7 @@ Android手機的瀏覽器陣營大致可以分為Chromium系(WebKit)與Firefox�
 |---|---|
 |[VLC](https://f-droid.org/zh_Hant/packages/org.videolan.vlc/)|影片兼音樂播放器，支援字幕，可在背景播放影片，或當成音樂播放器使用。|
 |[mpv-android](https://f-droid.org/en/packages/is.xyz.mpv/)|MPV影片/音樂播放器Android版，支援使用電腦版的設定檔。|
-|[Metro](hhttps://f-droid.org/en/packages/io.github.muntashirakon.Music/)|基於RetroPlayer開發的音樂播放器，支援讀取資料夾。|
+|[Metro](https://f-droid.org/en/packages/io.github.muntashirakon.Music/)|基於RetroPlayer開發的音樂播放器，支援讀取資料夾。|
 |[Pods Companion For AirPods](https://f-droid.org/zh_Hant/packages/io.github.domi04151309.podscompanion/)|查看AirPods的電量。|
 |[Open Camera](https://f-droid.org/zh_Hant/packages/net.sourceforge.opencamera/)|相機APP，可設定拍照錄影的成像品質、GPS、HDR等細部設定。|
 |[Wifi Camera](https://f-droid.org/zh_Hant/packages/teaonly.droideye/)|用Wifi分享手機鏡頭，電腦瀏覽器可看到手機鏡頭畫面。|
@@ -144,6 +139,7 @@ Android手機的瀏覽器陣營大致可以分為Chromium系(WebKit)與Firefox�
 |[Les Pas](https://f-droid.org/zh_Hant/packages/site.leos.apps.lespas/)|相簿APP，可同步相片至NextCloud。|
 |[Aves Libre](https://f-droid.org/packages/deckers.thibault.aves.libre/)|相簿APP，支援檢視圖片、影片、地圖資訊。|
 |[Video Transcoder](https://f-droid.org/zh_Hant/packages/protect.videoeditor/)|輕量影片剪輯、轉檔工具。|
+|[Open Video Editor](https://github.com/devhyper/open-video-editor)|輕量影片剪輯、轉檔工具，可以在影片上加文字。|
 |[Litrato](https://github.com/DrMint/Litrato)|照片調整軟體，提供多款濾鏡。|
 |[Pocket Paint](https://f-droid.org/zh_Hant/packages/org.catrobat.paintroid/)|圖片編輯軟體，支援簡易圖層、繪圖。|
 |[miniPaint](https://viliusle.github.io/miniPaint/)|網頁修圖程式，支援手機版界面。Pixlr、Photopea替代品。|
@@ -253,12 +249,12 @@ Android手機的瀏覽器陣營大致可以分為Chromium系(WebKit)與Firefox�
 |---|---|
 |[microG](https://microg.org/fdroid.html)|取代部份GMS服務的開源程式，德國製造。|
 |[Plexus](https://github.com/techlore/plexus)|查詢有哪些APP不需要GMS服務也能跑，可到Github貢獻資料庫。|
-|[Snapdrop for Android](https://f-droid.org/zh_Hant/packages/com.fmsys.snapdrop/)|在多個裝置間透過Wifi傳送檔案。|
 |[OCR](https://f-droid.org/zh_Hant/packages/io.github.subhamtyagi.ocr/)|從圖片中識別文字，使用Google Tesseract引擎。|
 |[Neo Backup](https://f-droid.org/en/packages/com.machiav3lli.backup/)|備份APP和資料，需要Root。|
 |[UnitsTool](https://f-droid.org/zh_Hant/packages/com.unitstool/)|轉換溫度、物理量、貨幣等單位。|
 |[Lingshot](https://github.com/CharlesMoreira1/lingshot)|圖片翻譯軟體。|
 |[LibreTranslator](https://www.f-droid.org/zh_Hant/packages/de.beowulf.libretranslater/)|使用Libre Translate API的翻譯軟體。|
+|[Snapdrop for Android](https://f-droid.org/zh_Hant/packages/com.fmsys.snapdrop/)|在多個裝置間透過Wifi傳送檔案。|
 |[KDE Connect](https://f-droid.org/packages/org.kde.kdeconnect_tp/)|讓手機跟電腦傳輸檔案、同步通知。|
 |[LocalSend](https://github.com/localsend/localsend)|跨平台無線傳檔軟體。|
 |[Aria2App](https://github.com/devgianlu/Aria2App)|基於Aria2開發的下載管理器，支援BT種子和斷點續傳。|
