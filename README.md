@@ -38,8 +38,7 @@ Android手機的瀏覽器陣營大致可以分為Chromium系(WebKit)與Firefox�
 |[Vanadium](https://github.com/GrapheneOS/Vanadium)|GrapheneOS開發的Chromium瀏覽器，強調隱私保護。|
 |[Ungoogled Chromium](https://github.com/ungoogled-software/ungoogled-chromium-android)| 去掉Google服務的Chromium瀏覽器，支援擴充元件。|
 |[Brave Browser](https://github.com/brave/brave-browser)|基於Chromium開發的跨平台瀏覽器，有自家的同步帳號機制、搜尋引擎、加密貨幣功能。支援擋廣告、擋追蹤器。|
-|[Kiwi Browser](https://github.com/kiwibrowser/src.next)|基於Chromium開發的瀏覽器，可以裝電腦版擴充功能擋廣告。沒有同步帳號功能，且會蒐集使用者搜尋時的資料。|
-|[Midori Browser](https://github.com/kiwibrowser/src.next)|獨立開發的跨平台輕量瀏覽器，並非基於Chromium或Firefox。支援擋廣告。|
+|[Midori Browser](https://github.com/goastian/midori-android)|獨立開發的跨平台輕量瀏覽器，並非基於Chromium或Firefox。支援擋廣告。|
 |[EinkBro](https://f-droid.org/zh_Hant/packages/info.plateaukao.einkbro/)|專為電子紙閱讀器設計的瀏覽器。|
 |[TVBro](https://github.com/truefedex/tv-bro)|專為Android TV設計的瀏覽器。|
 
@@ -119,6 +118,8 @@ Android手機的瀏覽器陣營大致可以分為Chromium系(WebKit)與Firefox�
 |[Acode](https://f-droid.org/zh_Hant/packages/com.foxdebug.acode/)|程式碼編輯器，整合Git操作，支援語法自動偵錯。|
 |[Squircle](https://f-droid.org/zh_Hant/packages/com.blacksquircle.ui/)|程式碼編輯器，支援語法自動偵錯。|
 |[Markor](https://f-droid.org/zh_Hant/packages/net.gsantner.markor/)|編輯後可即時預覽成果的Markdown編輯器。|
+|[Joplin](https://github.com/laurent22/joplin)|跨平台筆記軟體，支援同步到雲端，使用Markdown儲存筆記。|
+|[Saber Notes](https://github.com/saber-notes/saber)|跨平台筆記軟體，以手寫為主的筆記軟體，支援嵌入PDF。|
 
 
 ## 多媒體
@@ -141,8 +142,8 @@ Android手機的瀏覽器陣營大致可以分為Chromium系(WebKit)與Firefox�
 |[Video Transcoder](https://f-droid.org/zh_Hant/packages/protect.videoeditor/)|輕量影片剪輯、轉檔工具。|
 |[Open Video Editor](https://github.com/devhyper/open-video-editor)|輕量影片剪輯、轉檔工具，可以在影片上加文字。|
 |[Litrato](https://github.com/DrMint/Litrato)|照片調整軟體，提供多款濾鏡。|
-|[Pocket Paint](https://f-droid.org/zh_Hant/packages/org.catrobat.paintroid/)|圖片編輯軟體，支援簡易圖層、繪圖。|
-|[miniPaint](https://viliusle.github.io/miniPaint/)|網頁修圖程式，支援手機版界面。Pixlr、Photopea替代品。|
+|[Image Toolbox](https://github.com/T8RIN/ImageToolbox)|多功能圖片編輯APP，支援加濾鏡、圖層、加文字。|
+|[Pocket Paint](https://f-droid.org/zh_Hant/packages/org.catrobat.paintroid/)|圖片編輯APP，支援簡易圖層、繪圖。|
 |[Com-Phone Story Maker](https://f-droid.org/en/packages/ac.robinson.mediaphone/)|製作有聲書影片。|
 |[Krita](https://f-droid.org/zh_Hant/packages/org.krita/)|專業的跨平台繪圖程式，僅適合平板使用。|
 |[PixaPencil](https://f-droid.org/en/packages/com.therealbluepandabear.pixapencil/)|像素畫繪圖程式。|
@@ -179,9 +180,12 @@ Android手機的瀏覽器陣營大致可以分為Chromium系(WebKit)與Firefox�
 |[Pixiv-Shaft](https://github.com/CeuiLiSA/Pixiv-Shaft)|第三方Pixiv客戶端。|
 |[Pixiv Func](https://f-droid.org/zh_Hant/packages/site.xiaocao.pixiv/index.html)|第三方Pixiv客戶端。|
 |[木之子漫畫閱讀器](https://f-droid.org/zh_Hant/packages/com.ero.kinoko/)|支援多個線上漫畫平台，可閱覽或下載漫畫。|
-|[Tachiyomi](https://staging.f-droid.org/en/packages/eu.kanade.tachiyomi/)|免費漫畫閱讀器，可以線上瀏覽與下載漫畫，支援多個線上平台。有非常多的分支版本，[Mihon](/posts/https://github.com/mihonapp/mihon)為官方原版的繼承者。|
+|[Mihon](https://github.com/mihonapp/mihon)|Tachiyomi繼承者，免費漫畫閱讀器，可以線上瀏覽與下載漫畫，支援多個線上平台。有非常多的分支版本，|
 |[Hendroid](https://f-droid.org/zh_Hant/packages/org.nonononoki.hendroid/)|閱讀多個H漫網站的客戶端。|
 |[EhViewer overhauled](https://github.com/FooIbar/EhViewer)|採用Material Design設計的E-hentai閱讀器。|
+|[AnimeTV](https://github.com/amarullz/AnimeTV)|Android TV專用的看動漫APP。|
+|[Streamflix](https://github.com/stantanasi/streamflix)|Android TV專用APP，觀看戲劇專用。|
+|[CloudStream](https://github.com/recloudstream/cloudstream)|免費觀看直播的Android TV APP。|
 |[Boorusphere](https://github.com/nullxception/boorusphere)|界面簡潔的動漫booru貼圖站閱讀器。|
 |[LoliSnatcher](https://github.com/NO-ob/LoliSnatcher_Droid)|支援多個動漫booru貼圖站的閱讀器，可搭配Hydrus Network使用。|
 |[Hacki for Hacker News](https://f-droid.org/zh_Hant/packages/com.jiaqifeng.hacki/)|Hacker News閱讀器。|
