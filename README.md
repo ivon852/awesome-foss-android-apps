@@ -8,7 +8,6 @@ Awesome FOSS Android Apps list (Traditional Chinese)
 
 如果APP沒上架F-Droid，您也可以透過[Obtainium](https://ivonblog.com/posts/use-obtainium-to-download-foss-apps/)來下載Github、Gilab等網站發表的APK，真的不行再使用Google Play吧。
 
-
 ## 第三方應用程式商店
 
 第三方應用程式商店包含F-Droid的第三方前端，UI相較於官方版F-Droid的比較流暢，有的還支援使用者評分。
@@ -31,7 +30,6 @@ Android手機的瀏覽器陣營大致可以分為Chromium系(WebKit)與Firefox�
 |---|---|
 |[Mozilla Firefox](https://github.com/mozilla-mobile/firefox-android)| Firefox官方手機版，支援安裝擴充功能擋廣告、同步電腦帳號。|
 |[Fennec F-Droid](https://f-droid.org/en/packages/org.mozilla.fennec_fdroid/)|基於Mozilla Firefox (Fenix)開發，強調隱私保護。支援登入Mozilla帳號同步。|
-|[Mull](https://f-droid.org/en/packages/us.spotco.fennec_dos/)|基於Mozilla Firefox (Fenix)開發，強調隱私保護。支援登入Mozilla帳號同步。|
 |[Iceraven](https://github.com/fork-maintainers/iceraven-browser)|Firefox的fork，保留舊版Firefox的功能，支援安裝更多電腦版的Firefox擴充功能，而非Firefox原版限定的擴充功能，還可以存取about:config調整細部設定。|
 |[Tor Browser for Android](https://support.torproject.org/tormobile/tormobile-7/)|支援Tor協定的瀏覽器。需要啟用Guardian Project軟體庫。|
 |[Cromite](https://github.com/uazo/cromite)|Bromite繼承者，強調隱私保護，支援Adblocker清單與自訂指令稿。開發者另提供vanilla版本的Chromium。|
@@ -158,8 +156,6 @@ Android手機的瀏覽器陣營大致可以分為Chromium系(WebKit)與Firefox�
 
 |名稱|簡介|
 |---|---|
-|[Frost for Facebook](https://f-droid.org/zh_Hant/packages/com.pitchedapps.frost/)|以行動版Facebook界面製作的APP，無敏感權限，並可使用手機網頁版Messenger。|
-|[Barinsta](https://f-droid.org/packages/me.austinhuang.instagrabber/)|第三方Instagram客戶端，務求簡潔。|
 |[Infinity for Reddit](https://f-droid.org/zh_Hant/packages/ml.docilealligator.infinityforreddit/)|第三方Reddit瀏覽APP，自動去廣告。註：由於Reddit API政策改變的關係，Infinity已變成付費軟體，個人使用的話建議自行[編譯Infinity](https://ivonblog.com/posts/compile-infinity-for-reddit/)。|
 |[Fritter](https://f-droid.org/zh_Hant/packages/com.jonjomckay.fritter/)|免登入查看Twitter上的熱門話題。|
 |[LBRY F-Droid](https://f-droid.org/zh_Hant/packages/io.lbry.browser/)|區塊鏈影音平台LBRY的官方客戶端。|
@@ -239,7 +235,6 @@ Android手機的瀏覽器陣營大致可以分為Chromium系(WebKit)與Firefox�
 |---|---|
 |[Hacker's Keyboard](https://f-droid.org/packages/org.pocketworkstation.pckeyboard/)|內建許多電腦快捷鍵的英文輸入法，適合用於遠端桌面。|
 |[AnySoftkeyboard](https://f-droid.org/packages/com.menny.android.anysoftkeyboard/)|支援多語言的英文鍵盤。|
-|[OpenBoard](https://f-droid.org/packages/org.dslul.openboard.inputmethod.latin/)| 基於Gboard開發的英文鍵盤。|
 |[中州韻TRIME](https://f-droid.org/zh_Hant/packages/com.osfans.trime/)|支援強大自定義配置的中文輸入法框架，使用RIME引擎。注音使用者請使用「洋蔥注音輸入方案」。|
 |[樸實注音鍵盤](https://f-droid.org/zh_Hans/packages/org.ghostsinthelab.apps.guilelessbopomofo/)|基於新酷音輸入法開發的極簡注音輸入法。|
 |[小企鵝Fcitx5 for Android](https://github.com/fcitx5-android/fcitx5-android)|移植自Linux系統的輸入法，支援拼音、倉頡、嘸蝦米等輸入方案。|
