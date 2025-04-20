@@ -6,7 +6,7 @@ Awesome FOSS Android Apps list (Traditional Chinese)
 
 文中提及的APP多半可以在[F-Droid](https://ivonblog.com/posts/what-is-f-droid/)這個開源應用程式商店取得，有些要額外加入軟體庫。
 
-如果APP沒上架F-Droid，您也可以透過[Obtainium](https://ivonblog.com/posts/use-obtainium-to-download-foss-apps/)來下載Github、Gilab等網站發表的APK，真的不行再使用Google Play吧。
+如果APP沒上架F-Droid，您也可以透過[Obtainium](https://ivonblog.com/posts/use-obtainium-to-download-foss-apps/)來下載Github、Gitlab等網站發表的APK，真的不行再使用Google Play吧。
 
 
 ## 第三方應用程式商店
@@ -17,7 +17,7 @@ Awesome FOSS Android Apps list (Traditional Chinese)
 |---|---|
 |[Neo Store](https://f-droid.org/zh_Hant/packages/com.machiav3lli.fdroid/)|內建許多第三方軟體庫的F-Droid客戶端，Droidfy的後繼者。|
 |[G-Droid](https://f-droid.org/en/packages/org.gdroid.gdroid/)|含有使用者評分功能的第三方F-Droid客戶端。|
-|[Aurora Store](https://f-droid.org/zh_Hant/packages/com.aurora.store/)|免登入下載Google Play上的免費APP。|
+|[Aurora Store](https://f-droid.org/zh_Hant/packages/com.aurora.store/)|免登入即可下載Google Play的免費APP，不需要依賴GMS服務。也可以用個人Google帳號登入Aurora Store，下載已經購買的APP。|
 |[Obtainium](https://github.com/ImranR98/Obtainium)|直接從軟體開發者的儲存庫下載APP，繞過F-Droid的版本。例如使用者填入Github儲存庫，Obtainium就會自動檢查新版本。|
 
 
@@ -70,7 +70,7 @@ Android手機的瀏覽器陣營大致可以分為Chromium系(WebKit)與Firefox�
 |[Fossify Contacts](https://f-droid.org/zh_Hant/packages/org.fossify.contacts/)|簡易聯絡人管理APP。|
 |[Fossify Messages](https://f-droid.org/zh_Hant/packages/org.fossify.messages/)|簡易簡訊APP。|
 |[K-9 Mail](https://f-droid.org/zh_Hant/packages/com.fsck.k9/)|支援多個帳號的電郵APP，未來將與Mozilla Thunderbird合併。|
-|[Protonmail](https://github.com/ProtonMail/proton-mail-android)|加密電子郵件Protonmail的官方客戶端。|
+|[Protonmail](https://github.com/ProtonMail/android-mail)|加密電子郵件Protonmail的官方客戶端。|
 |[Telegram FOSS](https://f-droid.org/zh_Hant/packages/org.telegram.messenger/)|開源分支版的Telegram客戶端，跟官方的界面幾無差異。|
 |[Elements](https://f-droid.org/packages/im.vector.app/)|存取群組聊天Elements.io的官方客戶端，支援Matrix通訊協定。|
 
@@ -170,13 +170,14 @@ Android手機的瀏覽器陣營大致可以分為Chromium系(WebKit)與Firefox�
 |[Thorium a PeerTube client](https://f-droid.org/zh_Hant/packages/net.schueller.peertube/)|觀看PeerTube的客戶端，需要手動加入站點。|
 |[LibreTube](https://f-droid.org/zh_Hant/packages/com.github.libretube/)|觀看Youtube影片，無廣告、可下載影片、支援背景播放。透過實例儲存播放清單和訂閱列表。|
 |[Tusky](https://f-droid.org/zh_Hant/packages/com.keylesspalace.tusky/)|支援多個實例帳號的Mastodon客戶端。|
-|[OctoDroid](https://f-droid.org/zh_Hant/packages/com.gh4a/)|第三方Github官方客戶端，支援線上管理issues等操作。|
+|[OctoDroid](https://f-droid.org/zh_Hant/packages/com.gh4a/)|第三方Github客戶端，支援線上管理issues等操作。|
 |[LabCoat](https://f-droid.org/zh_Hant/packages/com.commit451.gitlab/)|Gitlab官方客戶端，查看commits和issues。|
 |[GitNex for Gitea](https://f-droid.org/zh_Hant/packages/org.mian.gitnex/)|Gitea客戶端，支援多樣操作。|
 |[Pixiv-Shaft](https://github.com/CeuiLiSA/Pixiv-Shaft)|第三方Pixiv客戶端。|
 |[木之子漫畫閱讀器](https://f-droid.org/zh_Hant/packages/com.ero.kinoko/)|支援多個線上漫畫平台，可閱覽或下載漫畫。|
 |[Mihon](https://github.com/mihonapp/mihon)|Tachiyomi繼承者，免費漫畫閱讀器，可以線上瀏覽與下載漫畫，支援多個線上平台。有非常多的分支版本，|
 |[EhViewer overhauled](https://github.com/FooIbar/EhViewer)|採用Material Design設計的E-hentai閱讀器。|
+|[JHentai](https://github.com/jiangtian616/JHenTai)|使用Flutter寫成的跨平台E-hentai閱讀器，提供雙頁閱讀界面。|
 |[AnimeTV](https://github.com/amarullz/AnimeTV)|Android TV專用的看動漫APP。|
 |[Streamflix](https://github.com/stantanasi/streamflix)|Android TV專用APP，觀看戲劇專用。|
 |[CloudStream](https://github.com/recloudstream/cloudstream)|免費觀看直播的Android TV APP。|
@@ -191,7 +192,7 @@ Android手機的瀏覽器陣營大致可以分為Chromium系(WebKit)與Firefox�
 
 |名稱|簡介|
 |---|---|
-|[Minetest](https://f-droid.org/zh_Hant/packages/net.minetest.minetest/)|自由開源的沙盒遊戲，有大量模組可安裝，能把遊戲搞得像Minecraft一樣。如果F-Droid的APK無法啟動，請改到官網下載APK。|
+|[Luanti](https://f-droid.org/zh_Hant/packages/net.minetest.minetest/)|舊名Minetest，自由開源的沙盒遊戲，有大量模組可安裝，能把遊戲搞得像Minecraft一樣。如果F-Droid的APK無法啟動，請改到官網下載APK。|
 |[SuperTux](https://github.com/SuperTux/supertux/wiki/Download-Portable)|玩法類似超級瑪莉的企鵝遊戲，非官方移植版。難度高。|
 |[SuperTuxKart](https://f-droid.org/zh_Hant/packages/org.supertuxkart.stk/)|自由軟體吉祥物駕駛卡丁車的賽車遊戲，畫面品質優秀。|
 |[Tux Rider](https://f-droid.org/zh_Hant/packages/com.drodin.tuxrider/)|企鵝滑雪遊戲。|
@@ -229,7 +230,7 @@ Android手機的瀏覽器陣營大致可以分為Chromium系(WebKit)與Firefox�
 |[PPSSPP](https://f-droid.org/packages/org.ppsspp.ppsspp/)| 著名的PSP掌機模擬器，需要自備ROM。 |
 |[Dolphin Emulator](https://f-droid.org/en/packages/org.dolphinemu.dolphinemu/)| Nitendo Wii模擬器。 |
 |[Lemuroid](https://f-droid.org/zh_Hant/packages/com.swordfish.lemuroid/)|基於Libretro開發，Atari、Game Boy、SEGA、PSP、Nitendo 3DS等遊戲主機的模擬器。|
-
+|[Winlator](https://github.com/brunodev85/winlator)|利用Proot Linux + Box64 + Wine技術，轉譯遊玩Windows exe遊戲。|
 
 
 ## 導航
@@ -276,7 +277,7 @@ Android手機的瀏覽器陣營大致可以分為Chromium系(WebKit)與Firefox�
 |[AnySoftkeyboard](https://f-droid.org/packages/com.menny.android.anysoftkeyboard/)|支援多語言的英文鍵盤。|
 |[中州韻TRIME](https://f-droid.org/zh_Hant/packages/com.osfans.trime/)|支援強大自定義配置的中文輸入法框架，使用RIME引擎。注音使用者請使用「洋蔥注音輸入方案」。|
 |[樸實注音鍵盤](https://f-droid.org/zh_Hans/packages/org.ghostsinthelab.apps.guilelessbopomofo/)|基於新酷音輸入法開發的極簡注音輸入法。|
-|[小企鵝Fcitx5 for Android](https://github.com/fcitx5-android/fcitx5-android)|移植自Linux系統的輸入法，支援拼音、倉頡、嘸蝦米等輸入方案。|
+|[小企鵝 Fcitx5 for Android](https://github.com/fcitx5-android/fcitx5-android)|移植自Linux系統的輸入法，支援拼音、倉頡、嘸蝦米等輸入方案。|
 |[Fossify Keyboard](https://f-droid.org/zh_Hant/packages/org.fossify.keyboard/)|提供Emoji輸入與剪接簿紀錄的英文鍵盤。|
 
 
