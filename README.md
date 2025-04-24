@@ -51,11 +51,11 @@ Android手機的瀏覽器陣營大致可以分為Chromium系(WebKit)與Firefox�
 |[Blockada](https://f-droid.org/packages/org.blokada.fem.fdroid/)|用DNS(本機VPN)擋廣告的軟體。|
 |[NetGuard](https://f-droid.org/zh_Hant/packages/eu.faircode.netguard/)|限制APP連網權限。|
 |[OpenVPN](https://github.com/schwabe/ics-openvpn)|跨平台VPN軟體OpenVPN官方Android版客戶端。|
-|[迷霧通 Geph](https://github.com/geph-official/geph-android)|愛沙尼亞公司推出的翻牆VPN服務。|
+|[迷霧通 Geph](https://github.com/geph-official/geph-android)|愛沙尼亞公司販售的VPN服務，主要針對中國翻牆用戶設計，提供低速免費方案。|
+|[Proton VPN](https://f-droid.org/zh_Hant/packages/ch.protonvpn.android/)|Proton公司販售的隱私VPN服務，支援KillSwitch和Port Forwarding。|
+|[Mullvad VPN](https://f-droid.org/zh_Hant/packages/net.mullvad.mullvadvpn/)|Mullvad公司販售的隱私VPN服務，不論訂閱多久時間，一個週期都是公道價5美元，支援加密貨幣付款。註冊帳號不需要電子郵件，而是一串代碼組成。|
 |[TorServices (alpha)](https://f-droid.org/packages/org.torproject.torservices/)|Guardian Project提供的Tor網路服務，|
-|[Orbot: Tor for Android](https://support.torproject.org/tormobile/tormobile-7/)|讓手機使用Tor網路連線。|
-|[Proton VPN](https://f-droid.org/zh_Hant/packages/ch.protonvpn.android/)|Proton公司提供的隱私VPN服務，支援KillSwitch和Port Forwarding。|
-
+|[Orbot: Tor for Android](https://support.torproject.org/tormobile/tormobile-7/)|讓手機使用全域Tor網路連線。|
 
 ## 通訊軟體
 
@@ -109,11 +109,11 @@ Android手機的瀏覽器陣營大致可以分為Chromium系(WebKit)與Firefox�
 
 |名稱|簡介|
 |---|---|
-|[LibreOffice Viewer](https://f-droid.org/zh_Hant/packages/org.documentfoundation.libreoffice/)|文件基金會官方推出的ODF檢視器。|
-|[Collabora Office](https://www.collaboraonline.com/collabora-office-android-ios/)|基於LibreOffice開發的手機文件編輯器，支援常見Office檔案格式和PDF檔。|
-|[OpenDocument Reader](https://f-droid.org/zh_Hant/packages/at.tomtasche.reader/)|可檢視和編輯.odt、.ods、.odp文件。|
-|[Librera Reader](https://f-droid.org/packages/com.foobnix.pro.pdf.reader/)|功能豐富的閱讀器，可開啟大多數格式的電子書，可存取雲端上的書籍。|
-|[KOReader](https://f-droid.org/en/packages/org.koreader.launcher.fdroid/)|適合電子紙使用的電子書閱讀器。支援PDF, DjVu, EPUB, FB2, CBZ格式。|
+|[LibreOffice Viewer](https://f-droid.org/zh_Hant/packages/org.documentfoundation.libreoffice/)|文件基金會官方推出的ODF檢視器，可檢視和編輯.odt、.ods、.odp文件。|
+|[Collabora Office](https://www.collaboraonline.com/collabora-office-android-ios/)|基於LibreOffice開發的手機文件編輯器，支援常見Office檔案格式和PDF檔，可檢視和編輯.odt、.ods、.odp文件。|
+|[OpenDocument Reader](https://f-droid.org/zh_Hant/packages/at.tomtasche.reader/)|Stefl und Taschauer OG.公司維護的APP，可檢視和編輯.odt、.ods、.odp文件。|
+|[Librera Reader](https://f-droid.org/packages/com.foobnix.pro.pdf.reader/)|功能豐富的閱讀器，可開啟大多數格式的電子書，存取雲端硬碟的書籍。|
+|[KOReader](https://f-droid.org/en/packages/org.koreader.launcher.fdroid/)|適合電子紙使用的電子書閱讀器。支援PDF、DjVu、EPUB、FB2、CBZ格式。|
 |[MJ PDF](https://github.com/mudlej/mj_pdf)|簡單又省資源的PDF閱讀器。|
 |[Acode](https://f-droid.org/zh_Hant/packages/com.foxdebug.acode/)|程式碼編輯器，整合Git操作，支援語法自動偵錯。|
 |[Squircle](https://f-droid.org/zh_Hant/packages/com.blacksquircle.ui/)|程式碼編輯器，支援語法自動偵錯。|
@@ -160,6 +160,7 @@ Android手機的瀏覽器陣營大致可以分為Chromium系(WebKit)與Firefox�
 
 |名稱|簡介|
 |---|---|
+|[AntennaPod](https://f-droid.org/zh_Hant/packages/de.danoeh.antennapod/)|Podcast聆聽客戶端，自由匯入匯出收藏紀錄。|
 |[LBRY F-Droid](https://f-droid.org/zh_Hant/packages/io.lbry.browser/)|區塊鏈影音平台LBRY的官方客戶端。|
 |[Youtube ReVanced/ReVanced Manager](https://github.com/ReVanced/revanced-manager)|破解版的官方Youtube，去廣告、隱藏任意版面。|
 |[NewPipe](https://f-droid.org/zh_Hant/packages/org.schabi.newpipe/)|免登入觀看Youtube/PeerTube影片，無廣告、可下載影片、支援背景播放。|
@@ -184,6 +185,56 @@ Android手機的瀏覽器陣營大致可以分為Chromium系(WebKit)與Firefox�
 |[LoliSnatcher](https://github.com/NO-ob/LoliSnatcher_Droid)|支援多個動漫booru貼圖站的閱讀器，可搭配Hydrus Network使用。|
 |[Hacki for Hacker News](https://f-droid.org/zh_Hant/packages/com.jiaqifeng.hacki/)|Hacker News閱讀器。|
 |[Fluent Reader Lite](https://github.com/yang991178/fluent-reader-lite)|跨平台RSS閱讀器。|
+
+
+
+## 導航
+
+|名稱|簡介|
+|---|---|
+|[OSMAnd~](https://f-droid.org/zh_Hant/packages/net.osmand.plus/)|以OpenStreetMap當作圖資的導航APP，支援離線地圖，可以讀取軌跡.gpx檔。|
+|[Organic Maps](https://f-droid.org/en/packages/app.organicmaps/)|以OpenStreetMap當作圖資的導航APP，規劃登山、腳踏車路線，支援離線地圖。|
+|[Street­Complete](https://f-droid.org/packages/de.westnordost.streetcomplete/)|回答簡單問題，改善OpenStreeMap圖資。|
+|[Vespucci](https://f-droid.org/packages/de.blau.android/)|隨時隨地編輯OpenStreetMap圖資。|
+|[OpenTracks](https://f-droid.org/en/packages/de.dennisguse.opentracks/)|離線執行的運動軌跡記錄器，使用OpenStreetMap當作圖資，可搭配智慧手錶記錄心率。使用.gpx格式分享資料，配合OSM Dashboard地圖資料將軌跡顯示在地圖上。|
+|[OSMTracker](https://f-droid.org/packages/net.osmtracker/)|運動軌跡記錄器，使用OpenStreetMap當作圖資。使用.gpx格式分享資料，並能在路線圖嵌入照片與筆記。|
+|[GPSLogger](https://f-droid.org/zh_Hant/packages/com.mendhak.gpslogger/)|自動在背景紀錄GPS軌跡。|
+|[Trackbook - Movement Recorder](https://f-droid.org/en/packages/org.y20k.trackbook/)|紀錄健行、出遊的移動軌跡，使用OpenStreetMap當圖資。|
+|[GMaps WV](https://f-droid.org/zh_Hant/packages/us.spotco.maps/)|簡易網頁版Google地圖，OpenStreetMap不夠用時的補充用途。|
+|[osm2gmaps](https://f-droid.org/zh_Hant/packages/net.retiolus.osm2gmaps/)|依照網址，轉換為不同導航軟體的座標。|
+
+
+## 健康
+
+|名稱|簡介|
+|---|---|
+|[Noice: Natural Calming Noise](https://f-droid.org/packages/com.github.ashutoshgngwr.noice/)|白噪音生成器兼鬧鐘，支援Chromecast。|
+|[Gadgetbridge](https://f-droid.org/zh_Hant/packages/nodomain.freeyourgadget.gadgetbridge/)|連線到智慧手錶與智慧手環，更有隱私的紀錄健康資訊與GPS軌跡，資料可以任意匯出，不被原廠的專有軟體APP綁住。|
+|[Fridgey](https://f-droid.org/zh_Hant/packages/lying.fengfeng.foodrecords/)|紀錄食材照片。|
+|[Flexify](https://github.com/brandonp2412/Flexify)|追蹤健身進度。|
+|[Minimalist Pomodoro Timer](https://github.com/adrcotfas/Goodtime?tab=readme-ov-file)|蕃茄鐘小工具。|
+|[Fossify Clock](https://f-droid.org/zh_Hant/packages/org.fossify.clock/)|簡易鬧鐘與計時器。|
+
+
+## 理財
+
+|名稱|簡介|
+|---|---|
+|[Currencies: Exchange Rate Calculator](https://f-droid.org/en/packages/de.salomax.currencies/)|貨幣匯率轉換器，使用Frankfurter API。|
+|[Catima](https://f-droid.org/zh_Hant/packages/me.hackerchick.catima/)|載具條碼、票卷、卡片管理器。|
+|[My Expenses](https://f-droid.org/en/packages/org.totschnig.myexpenses/)|記帳APP，可匯出為QIF、CSV。|
+
+
+## 輸入法
+
+|名稱|簡介|
+|---|---|
+|[Hacker's Keyboard](https://f-droid.org/packages/org.pocketworkstation.pckeyboard/)|內建許多電腦快捷鍵的英文輸入法，適合用於遠端桌面。|
+|[AnySoftkeyboard](https://f-droid.org/packages/com.menny.android.anysoftkeyboard/)|支援多語言的英文鍵盤。|
+|[中州韻TRIME](https://f-droid.org/zh_Hant/packages/com.osfans.trime/)|支援強大自定義配置的中文輸入法框架，使用RIME引擎。注音使用者請使用「洋蔥注音輸入方案」。|
+|[樸實注音鍵盤](https://f-droid.org/zh_Hans/packages/org.ghostsinthelab.apps.guilelessbopomofo/)|基於新酷音輸入法開發的極簡注音輸入法。|
+|[小企鵝 Fcitx5 for Android](https://github.com/fcitx5-android/fcitx5-android)|移植自Linux系統的輸入法，支援拼音、倉頡、嘸蝦米等輸入方案。|
+|[Fossify Keyboard](https://f-droid.org/zh_Hant/packages/org.fossify.keyboard/)|提供Emoji輸入與剪接簿紀錄的英文鍵盤。|
 
 
 ## 遊戲
@@ -231,54 +282,6 @@ Android手機的瀏覽器陣營大致可以分為Chromium系(WebKit)與Firefox�
 |[Dolphin Emulator](https://f-droid.org/en/packages/org.dolphinemu.dolphinemu/)| Nitendo Wii模擬器。 |
 |[Lemuroid](https://f-droid.org/zh_Hant/packages/com.swordfish.lemuroid/)|基於Libretro開發，Atari、Game Boy、SEGA、PSP、Nitendo 3DS等遊戲主機的模擬器。|
 |[Winlator](https://github.com/brunodev85/winlator)|利用Proot Linux + Box64 + Wine技術，轉譯遊玩Windows exe遊戲。|
-
-
-## 導航
-
-|名稱|簡介|
-|---|---|
-|[OSMAnd~](https://f-droid.org/zh_Hant/packages/net.osmand.plus/)|以OpenStreetMap當作圖資的導航APP，支援離線地圖。|
-|[Organic Maps](https://f-droid.org/en/packages/app.organicmaps/)|以OpenStreetMap當作圖資的導航APP，規劃登山、腳踏車路線，支援離線地圖。|
-|[Street­Complete](https://f-droid.org/packages/de.westnordost.streetcomplete/)|回答簡單問題，改善OpenStreeMap圖資。|
-|[Vespucci](https://f-droid.org/packages/de.blau.android/)|隨時隨地編輯OpenStreetMap圖資。|
-|[GPSLogger](https://f-droid.org/zh_Hant/packages/com.mendhak.gpslogger/)|自動在背景紀錄GPS軌跡。|
-|[Trackbook - Movement Recorder](https://f-droid.org/en/packages/org.y20k.trackbook/)|紀錄健行、出遊的移動軌跡，使用OpenStreetMap當圖資。|
-|[GMaps WV](https://f-droid.org/zh_Hant/packages/us.spotco.maps/)|簡易網頁版Google地圖，OpenStreetMap不夠用時的補充用途。|
-|[osm2gmaps](https://f-droid.org/zh_Hant/packages/net.retiolus.osm2gmaps/)|依照網址，轉換為不同導航軟體的座標。|
-
-
-## 健康
-
-|名稱|簡介|
-|---|---|
-|[Noice: Natural Calming Noise](https://f-droid.org/packages/com.github.ashutoshgngwr.noice/)|白噪音生成器兼鬧鐘，支援Chromecast。|
-|[Gadgetbridge](https://f-droid.org/zh_Hant/packages/nodomain.freeyourgadget.gadgetbridge/)|連線到智慧手錶與智慧手環，離線紀錄健康資訊，不被原廠的專有軟體綁住。|
-|[OpenTracks](https://f-droid.org/en/packages/de.dennisguse.opentracks/)|紀錄體能運動紀錄。|
-|[Fridgey](https://f-droid.org/zh_Hant/packages/lying.fengfeng.foodrecords/)|紀錄食材照片。|
-|[Flexify](https://github.com/brandonp2412/Flexify)|追蹤健身進度。|
-|[Minimalist Pomodoro Timer](https://github.com/adrcotfas/Goodtime?tab=readme-ov-file)|蕃茄鐘小工具。|
-|[Fossify Clock](https://f-droid.org/zh_Hant/packages/org.fossify.clock/)|簡易鬧鐘與計時器。|
-
-
-## 理財
-
-|名稱|簡介|
-|---|---|
-|[Currencies: Exchange Rate Calculator](https://f-droid.org/en/packages/de.salomax.currencies/)|貨幣匯率轉換器，使用Frankfurter API。|
-|[Catima](https://f-droid.org/zh_Hant/packages/me.hackerchick.catima/)|儲存實體卡片條碼。|
-|[My Expenses](https://f-droid.org/en/packages/org.totschnig.myexpenses/)|記帳APP，可匯出為QIF、CSV。|
-
-
-## 輸入法
-
-|名稱|簡介|
-|---|---|
-|[Hacker's Keyboard](https://f-droid.org/packages/org.pocketworkstation.pckeyboard/)|內建許多電腦快捷鍵的英文輸入法，適合用於遠端桌面。|
-|[AnySoftkeyboard](https://f-droid.org/packages/com.menny.android.anysoftkeyboard/)|支援多語言的英文鍵盤。|
-|[中州韻TRIME](https://f-droid.org/zh_Hant/packages/com.osfans.trime/)|支援強大自定義配置的中文輸入法框架，使用RIME引擎。注音使用者請使用「洋蔥注音輸入方案」。|
-|[樸實注音鍵盤](https://f-droid.org/zh_Hans/packages/org.ghostsinthelab.apps.guilelessbopomofo/)|基於新酷音輸入法開發的極簡注音輸入法。|
-|[小企鵝 Fcitx5 for Android](https://github.com/fcitx5-android/fcitx5-android)|移植自Linux系統的輸入法，支援拼音、倉頡、嘸蝦米等輸入方案。|
-|[Fossify Keyboard](https://f-droid.org/zh_Hant/packages/org.fossify.keyboard/)|提供Emoji輸入與剪接簿紀錄的英文鍵盤。|
 
 
 
