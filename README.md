@@ -83,7 +83,7 @@ Android手機的瀏覽器陣營大致可以分為Chromium系(Blink)與Firefox系
 |[Thunderbird](https://f-droid.org/zh_Hant/packages/net.thunderbird.android/)|跨平台電郵客戶端。|
 |[K-9 Mail](https://f-droid.org/zh_Hant/packages/com.fsck.k9/)|支援多個帳號的電郵APP。|
 |[Protonmail](https://github.com/ProtonMail/android-mail)|加密電子郵件Protonmail的官方客戶端。|
-|[Telegram FOSS](https://f-droid.org/zh_Hant/packages/org.telegram.messenger/)|開源分支版的Telegram客戶端，跟官方的界面幾無差異。|
+|[Forkgram](https://f-droid.org/packages/org.forkgram.messenger/)|Telegram官方客戶端修改版，做了一些便利小修改，例如預設啟用「為所有人刪除」，不會蒐集使用者資料。|
 |[Elements](https://f-droid.org/packages/im.vector.app/)|存取群組聊天Elements.io的官方客戶端，支援Matrix通訊協定。|
 
 
