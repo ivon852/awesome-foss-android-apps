@@ -101,7 +101,7 @@ Android手機的瀏覽器陣營大致可以分為Chromium系(Blink)與Firefox系
 |[Kvaesitso](https://github.com/MM2-0/Kvaesitso)|以搜尋為導向的啟動器。|
 |[KISS Launcher](https://f-droid.org/packages/fr.neamar.kiss/)|極簡風格桌面。|
 |[FLauncher](https://gitlab.com/flauncher/flauncher)|Android TV專用的第三方桌面。|
-|[GIF Live Wallpaper](https://f-droid.rg/en/packages/net.redwarp.gifwallpaper/)|用GIF圖片當桌面背景。|
+|[GIF Live Wallpaper](https://f-droid.org/en/packages/net.redwarp.gifwallpaper/)|用GIF圖片當桌面背景。|
 
 
 ## 檔案管理器
