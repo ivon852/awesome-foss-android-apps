@@ -4,6 +4,8 @@ Awesome FOSS Android Apps list (Traditional Chinese)
 
 本列表收錄的好用Android APP，大部分都是自由開源軟體(Free and Open Source)，包含F-Droid與Github的開源專案。
 
+F-Droid是由歐洲非營利組織運營的應用程式商店。跟Google Play以及其他應用程式商店不同，F-Droid只接受上架自由軟體APP。自由軟體即程式原始碼可見，使用者有執行、檢閱、修改、散佈程式的自由。所以F-Droid幾乎沒有Google Play的熱門APP，遑論大多數「不自由」的手機遊戲。但是，使用者將會發現，許多好用的APP，能夠在不犧牲自由、隱私、安全的前提下使用。例如瀏覽器、檔案管理器、影片播放器這類常用APP，大多數都是免費無廣告，更棒的是他們是自由開源的。 
+
 如果不想依賴Google Play或中國的應用程式商店，並且想尋找「開源、無廣告、免費」的APP，那麼以下列表值得您參考。點選藍色字可直接前往下載頁面。
 
 請善用右邊的目錄快速跳轉。Github可以點選README右上角的三個點顯示目錄。
@@ -33,7 +35,7 @@ Android手機的瀏覽器陣營大致可以分為Chromium系(Blink)與Firefox系
 
 |名稱|簡介|
 |---|---|
-|[Mozilla Firefox](https://hg-edge.mozilla.org/mozilla-central)| Firefox官方手機版，支援安裝擴充功能與同步電腦版帳號資料，也可以充當密碼管理器，自動填入其他APP的密碼。因為Mozilla不願意在F-Droid上架，也停止在Github發佈APK了，所以F-Droid只有Firefox的fork，可能會無法播放DRM內容。如果你想使用官方Firefox，得透過Obtainium來追蹤APK更新。|
+|[Mozilla Firefox](https://hg-edge.mozilla.org/mozilla-central)| Firefox官方手機版，支援安裝擴充功能與同步電腦版帳號資料。也可以充當密碼管理器，自動填入其他APP的密碼。因為Mozilla不願意在F-Droid上架，也停止在Github發佈APK了，所以F-Droid只有Firefox的fork，可能無法播放DRM內容。如果你想使用官方版Firefox，得透過Obtainium來追蹤APK更新。|
 |[Fennec F-Droid](https://f-droid.org/en/packages/org.mozilla.fennec_fdroid/)|基於Mozilla Firefox (Fenix) 開發，強調隱私保護。支援登入Mozilla帳號同步。|
 |[IronFox](https://gitlab.com/ironfox-oss/IronFox)|基於Mozilla Firefox開發，Mull的後繼者，預設啟用了很多隱私保護設定，強大到許多網站會因此壞掉。支援登入Mozilla帳號同步。|
 |[Iceraven](https://github.com/fork-maintainers/iceraven-browser)|Firefox的fork，保留舊版Firefox的功能，支援安裝更多電腦版的Firefox擴充功能，而非Firefox原版限定的擴充功能，還可以存取about:config調整細部設定。|
@@ -61,7 +63,7 @@ Android手機的瀏覽器陣營大致可以分為Chromium系(Blink)與Firefox系
 |[迷霧通 Geph](https://github.com/geph-official/geph-android)|愛沙尼亞Gephyra OÜ公司販售的VPN服務，使用自有的協定繞過網路審查，主要針對中國翻牆用戶設計，提供低速免費方案。|
 |[Proton VPN](https://f-droid.org/zh_Hant/packages/ch.protonvpn.android/)|Proton公司販售的隱私VPN服務，支援KillSwitch和Port Forwarding。|
 |[Mullvad VPN](https://f-droid.org/zh_Hant/packages/net.mullvad.mullvadvpn/)|Mullvad公司販售的隱私VPN服務，不論訂閱多久時間，一個週期都是公道價5美元，支援加密貨幣付款。註冊帳號不需要電子郵件，而是一串代碼組成。|
-|[TorServices](https://f-droid.org/packages/org.torproject.torservices/)|Guardian Project提供的Tor網路服務，|
+|[TorServices](https://f-droid.org/packages/org.torproject.torservices/)|Guardian Project提供的Tor網路服務。|
 |[Orbot: Tor for Android](https://support.torproject.org/tormobile/tormobile-7/)|讓手機使用全域Tor網路連線。|
 |[Tailscale](https://f-droid.org/zh_Hant/packages/com.tailscale.ipn/)|內網穿透軟體。可以自架中繼伺服器。|
 |[ZeroTier-Fix](https://github.com/kaaass/ZerotierFix)|內網穿透軟體。ZeroTier官方的APP是專有軟體，此為逆向工程建置的版本，允許連接到自架的Moon中繼伺服器。|
@@ -95,7 +97,7 @@ Android手機的瀏覽器陣營大致可以分為Chromium系(Blink)與Firefox系
 |---|---|
 |[Muzei](https://f-droid.org/packages/net.nurik.roman.muzei/)|自動抓取藝術畫當桌布的APP，還有各種擴充插件可選取不同圖片來源，例如NASA、國家地理、Pixiv、Danbooru。|
 |[Materials Live Wallpaper](https://f-droid.org/zh_Hant/packages/com.reminimalism.materialslivewallpaper/)|渲染各種材質的物件當桌布，會跟著手機角度變化。|
-|[Neo Launcher](https://github.com/NeoApplications/Neo-Launcher)|支援自訂APP分類、自訂APP名稱、隱藏APP、手勢、快捷抽屜、桌面搜尋引擎等多樣功能的桌面啟動器。|
+|[Neo Launcher](https://github.com/NeoApplications/Neo-Launcher)|支援自訂APP分類、自訂APP名稱、自訂圖示包、隱藏APP、手勢、快捷抽屜、桌面搜尋引擎等多樣功能的桌面啟動器。|
 |[Lawnchair](https://github.com/LawnchairLauncher/lawnchair)|類似Nova Launcher的桌面啟動器，基於Android原生桌面打造，提供多種客製化方案還有自訂圖示包。|
 |[Fossify Launcher](https://f-droid.org/zh_Hant/packages/org.fossify.home/)|簡潔，近似原生Android的啟動器。|
 |[Kvaesitso](https://github.com/MM2-0/Kvaesitso)|以搜尋為導向的啟動器。|
@@ -151,8 +153,10 @@ Android手機的瀏覽器陣營大致可以分為Chromium系(Blink)與Firefox系
 |[CaPods](https://f-droid.org/zh_Hant/packages/eu.darken.capod/)|查看AirPods的電量。|
 |[LibrePods](https://ivonblog.com/posts/librepods-linux/)|將iOS的AirPods自訂功能移植到Android。可以查看AirPods電量，切換降噪模式，在Android與Linux之間使用「接續互通」功能。|
 |[Open Camera](https://f-droid.org/zh_Hant/packages/net.sourceforge.opencamera/)|相機APP，可設定拍照錄影的成像品質、GPS、HDR等細部設定。支援使用Camera2 API拍攝RAW照片。|
+|[FreeDcam](https://f-droid.org/zh_Hant/packages/troop.com.freedcam/)|相機APP，提供類似數位相機的橫向手動調整參數界面，需要Camera2API才能調整ISO。可以拍攝DNG檔、間隔拍攝。|
 |[Secure Camera](https://github.com/GrapheneOS/Camera)|GrapheneOS內建的相機APP，可以設定拍攝後不要儲存EXIF資料。部份支援Camera X的機型可以使用超級夜拍模式。提供掃描QR Code的功能|
 |[Fossify Camera](https://f-droid.org/zh_Hant/packages/org.fossify.camera/)|簡易相機APP，能夠選擇要不要儲存EXIF。|
+|[FadCam](https://f-droid.org/zh_Hant/packages/com.fadcam/)|螢幕錄影，可以即時在螢幕上畫記。還有背景錄影，行車記錄器，IP監視器等功能。|
 |[RemoteVideoCam](https://f-droid.org/packages/org.avmedia.remotevideocam/)|讓二支手機連線，讓彼此看到對方的鏡頭畫面。|
 |[Fossify Gallery](https://f-droid.org/zh_Hant/packages/org.fossify.gallery/)|相簿APP，可簡單編輯相片、批次刪除EXIF、資料夾模式檢視照片、瀑布流模式檢視照片、設定相簿封面、設定相簿密碼、排除特定資料夾、回收桶。分叉自封閉原始碼的「簡易相簿」|
 |[Les Pas](https://f-droid.org/zh_Hant/packages/site.leos.apps.lespas/)|相簿APP，可同步相片至NextCloud。|
@@ -189,6 +193,7 @@ Android手機的瀏覽器陣營大致可以分為Chromium系(Blink)與Firefox系
 |[LibreTube](https://f-droid.org/zh_Hant/packages/com.github.libretube/)|觀看Youtube影片，無廣告、可下載影片、支援背景播放。透過實例儲存播放清單和訂閱列表。|
 |[Mastodon](https://f-droid.org/zh_Hant/packages/org.joinmastodon.android/)|Mastodon官方客戶端。|
 |[Tusky](https://f-droid.org/zh_Hant/packages/com.keylesspalace.tusky/)|支援多個實例帳號的Mastodon客戶端。|
+|[Flare](https://f-droid.org/zh_Hant/packages/dev.dimension.flare/)|同時檢視Twitter、Mastodon、Misskey、Bluesky、Nostr、RSS的動態消息，整合在同一個時間軸。|
 |[OctoDroid](https://f-droid.org/zh_Hant/packages/com.gh4a/)|第三方Github客戶端，支援線上管理issues等操作。|
 |[LabCoat](https://f-droid.org/zh_Hant/packages/com.commit451.gitlab/)|Gitlab官方客戶端，查看commits和issues。|
 |[GitNex for Gitea](https://f-droid.org/zh_Hant/packages/org.mian.gitnex/)|Gitea客戶端，支援多樣操作。|
@@ -205,7 +210,8 @@ Android手機的瀏覽器陣營大致可以分為Chromium系(Blink)與Firefox系
 |[LoliSnatcher](https://github.com/NO-ob/LoliSnatcher_Droid)|支援多個動漫booru貼圖站的閱讀器，可搭配Hydrus Network使用。|
 |[Hacki for Hacker News](https://f-droid.org/zh_Hant/packages/com.jiaqifeng.hacki/)|Hacker News閱讀器。|
 |[Fluent Reader Lite](https://github.com/yang991178/fluent-reader-lite)|跨平台RSS閱讀器。|
-
+|[維基百科](https://f-droid.org/zh_Hant/packages/org.wikipedia/)|維基百科官方客戶端，可以快取頁面離線閱讀。|
+|[Kiwix](https://wiki.kiwix.org/wiki/Main_Page/zh-tw)|電子書閱讀器，可以一次下載整個維基百科的頁面離線閱讀(約11GB)，還有很多Wiki類網站的電子書資源，如Minecraft Wiki。使用ZIM格式壓縮頁面。|
 
 
 ## 導航
@@ -215,6 +221,7 @@ Android手機的瀏覽器陣營大致可以分為Chromium系(Blink)與Firefox系
 |[Breezy Weather](https://f-droid.org/packages/org.breezyweather/)|採用Material Design的天氣APP，能夠從世界各國取得天氣資料，包括OpenWeatherMap、Open-Meteo、台灣中央氣象署等等。提供動態桌布，會依照天氣變化桌布顏色。 |
 |[OSMAnd~](https://f-droid.org/zh_Hant/packages/net.osmand.plus/)|以OpenStreetMap當作圖資的導航APP，支援離線地圖，可以讀取軌跡.gpx檔並繪製在地圖上。|
 |[Organic Maps](https://f-droid.org/en/packages/app.organicmaps/)|以OpenStreetMap當作圖資的導航APP，規劃登山、腳踏車路線，支援離線地圖。|
+|[CoMaps](https://f-droid.org/packages/app.comaps.fdroid/)|以OpenStreetMap當作圖資的導航APP，規劃登山、腳踏車路線，支援離線地圖。強調社群參與。|
 |[Street­Complete](https://f-droid.org/packages/de.westnordost.streetcomplete/)|回答簡單問題，改善OpenStreeMap圖資。|
 |[Vespucci](https://f-droid.org/packages/de.blau.android/)|隨時隨地編輯OpenStreetMap圖資。|
 |[OpenTracks](https://f-droid.org/en/packages/de.dennisguse.opentracks/)|離線執行的運動軌跡記錄器，使用OpenStreetMap當作圖資，可搭配智慧手錶記錄心率。使用.gpx格式分享資料，配合OSM Dashboard地圖資料將軌跡顯示在地圖上。|
@@ -325,6 +332,8 @@ Android手機的瀏覽器陣營大致可以分為Chromium系(Blink)與Firefox系
 |[EverTranslator](https://github.com/firemaples/EverTranslator)|螢幕懸浮翻譯，即時辨識螢幕上的文字|
 |[Rtranslator](https://github.com/niedev/RTranslator)|採用Whisper技術的即時語音翻譯軟體。|
 |[LibreTranslator](https://www.f-droid.org/zh_Hant/packages/de.beowulf.libretranslater/)|使用Libre Translate API的翻譯軟體。|
+|[Translate You](https://f-droid.org/zh_Hant/packages/com.bnyro.translate/)|支援多種線上翻譯的翻譯軟體。|
+|[OSS-Dict](https://f-droid.org/zh_Hant/packages/com.akylas.aard2/)|離線字典APP，可以搭配維基詞典的資料使用。|
 |[Snapdrop & PairDrop for Android](https://f-droid.org/zh_Hant/packages/com.fmsys.snapdrop/)|在多個裝置間透過Wifi傳送檔案，雙方使用瀏覽器就能接收。|
 |[KDE Connect](https://f-droid.org/packages/org.kde.kdeconnect_tp/)|讓手機跟電腦傳輸檔案、同步通知、控制簡報、當作遠端滑鼠。|
 |[LocalSend](https://github.com/localsend/localsend)|跨平台無線傳檔軟體。|
