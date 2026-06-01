@@ -82,6 +82,7 @@ Android手機的瀏覽器陣營大致可以分為Chromium系(Blink)與Firefox系
 |[OpenContacts](https://f-droid.org/zh_Hant/packages/opencontacts.open.com.opencontacts/)|開源聯絡人APP。資料庫跟系統內建的分開，因此不會被其他APP讀取到聯絡人資訊。|
 |[Fossify Contacts](https://f-droid.org/zh_Hant/packages/org.fossify.contacts/)|簡易聯絡人管理APP。|
 |[Fossify Messages](https://f-droid.org/zh_Hant/packages/org.fossify.messages/)|簡易簡訊APP。|
+|[QUIK SMS](https://f-droid.org/zh_Hant/packages/dev.octoshrimpy.quik.fdroid/)|簡訊APP，支援文字轉語音，使用第三方提供的電話號碼封鎖名單。|
 |[Thunderbird](https://f-droid.org/zh_Hant/packages/net.thunderbird.android/)|跨平台電郵客戶端。|
 |[K-9 Mail](https://f-droid.org/zh_Hant/packages/com.fsck.k9/)|支援多個帳號的電郵APP。|
 |[Protonmail](https://github.com/ProtonMail/android-mail)|加密電子郵件Protonmail的官方客戶端。|
@@ -152,7 +153,8 @@ Android手機的瀏覽器陣營大致可以分為Chromium系(Blink)與Firefox系
 |[Fossify Music Player](https://f-droid.org/zh_Hant/packages/org.fossify.musicplayer/)|簡易音樂播放器，支援依照資料夾模式播放音樂。|
 |[CaPods](https://f-droid.org/zh_Hant/packages/eu.darken.capod/)|查看AirPods的電量。|
 |[LibrePods](https://ivonblog.com/posts/librepods-linux/)|將iOS的AirPods自訂功能移植到Android。可以查看AirPods電量，切換降噪模式，在Android與Linux之間使用「接續互通」功能。|
-|[Open Camera](https://f-droid.org/zh_Hant/packages/net.sourceforge.opencamera/)|相機APP，可設定拍照錄影的成像品質、GPS、HDR等細部設定。支援使用Camera2 API拍攝RAW照片。|
+|[光子相機](https://github.com/bjzhou/PhotonCamera)|相機APP，界面設計類似數位相機。提供多種LUT濾鏡呈現不同相機的色調。除了調整白平衡K數外，尚有調色盤能控制發色風格，以及拉色彩曲線。可以給照片加上拍立得外框。提供手動模式，可設定拍照錄影的成像品質、GPS、HDR等細部設定。支援使用Camera2 API拍攝RAW照片。拍照後能使用AI分析構圖。|
+|[Open Camera](https://f-droid.org/zh_Hant/packages/net.sourceforge.opencamera/)|相機APP，提供手動模式，可設定拍照錄影的成像品質、GPS、HDR等細部設定。支援使用Camera2 API拍攝RAW照片。|
 |[FreeDcam](https://f-droid.org/zh_Hant/packages/troop.com.freedcam/)|相機APP，提供類似數位相機的橫向手動調整參數界面，需要Camera2API才能調整ISO。可以拍攝DNG檔、間隔拍攝。|
 |[Secure Camera](https://github.com/GrapheneOS/Camera)|GrapheneOS內建的相機APP，可以設定拍攝後不要儲存EXIF資料。部份支援Camera X的機型可以使用超級夜拍模式。提供掃描QR Code的功能|
 |[Fossify Camera](https://f-droid.org/zh_Hant/packages/org.fossify.camera/)|簡易相機APP，能夠選擇要不要儲存EXIF。|
@@ -341,7 +343,8 @@ Android手機的瀏覽器陣營大致可以分為Chromium系(Blink)與Firefox系
 |[LibreTorrent](https://f-droid.org/zh_Hant/packages/org.proninyaroslav.libretorrent/)|BT種子與磁力連結下載器。|
 |[Limbo x86 PC Emulator](https://f-droid.org/zh_Hant/packages/com.limbo.emu.main/)|使用QEMU模擬x86電腦虛擬機，特定手機支援pKVM可以全速執行虛擬機。|
 |[Vectras VM](https://github.com/xoureldeen/Vectras-VM-Android)|使用QEMU模擬電腦虛擬機，整合QEMU-3dfx的GPU加速技術。|
-|[Fossify Calendar](https://f-droid.org/zh_Hant/packages/org.fossify.calendar/)|簡易離線月曆APP，可用日月年檢視行程。|
+|[Fossify Calendar](https://f-droid.org/zh_Hant/packages/org.fossify.calendar/)|簡易離線月曆APP，可用日月年檢視行程，需要搭配額外的CalDAV同步。|
+|[KashCal](https://f-droid.org/zh_Hant/packages/org.onekash.kashcal/)|行事曆，支援同步CalDAV與ICS格式的行事曆。|
 |[Fossify Caculator](https://f-droid.org/zh_Hant/packages/org.fossify.math/)|簡易計算機，可以在桌面放小工具。|
 |[Tasks.org](https://f-droid.org/zh_Hant/packages/org.tasks/)|開源的線上待辦事項APP。|
 |[Bitwarden](https://mobileapp.bitwarden.com/fdroid/repo/)|跨平台密碼管理器，跨裝置同步密碼與自動填入密碼。|
