@@ -246,7 +246,6 @@ Android手機的瀏覽器陣營，大致可以分為Chromium系(Blink)與Firefox
 |[Noice: Natural Calming Noise](https://f-droid.org/packages/com.github.ashutoshgngwr.noice/)|白噪音生成器兼鬧鐘，支援Chromecast。|
 |[Gadgetbridge](https://f-droid.org/zh_Hant/packages/nodomain.freeyourgadget.gadgetbridge/)|連線到智慧手錶、智慧手環、藍牙耳機，更有隱私的紀錄健康資訊與GPS軌跡，資料可以任意匯出，不被原廠的專有軟體APP綁住。|
 |[Fridgey](https://f-droid.org/zh_Hant/packages/lying.fengfeng.foodrecords/)|紀錄食材照片。|
-|[WonderFood](https://github.com/vaddisrinivas/wonderfood)|本地優先的飲食工作台，可管理食材庫存、食譜、餐單、收據、購物清單與營養筆記。|
 |[Flexify](https://github.com/brandonp2412/Flexify)|追蹤健身進度。|
 |[Minimalist Pomodoro Timer](https://github.com/adrcotfas/Goodtime?tab=readme-ov-file)|蕃茄鐘小工具。|
 |[Fossify Clock](https://f-droid.org/zh_Hant/packages/org.fossify.clock/)|簡易鬧鐘與計時器。|
@@ -344,7 +343,6 @@ Android手機的瀏覽器陣營，大致可以分為Chromium系(Blink)與Firefox
 |[OSS-Dict](https://f-droid.org/zh_Hant/packages/com.akylas.aard2/)|離線字典APP，可以搭配維基詞典的資料使用。|
 |[Snapdrop & PairDrop for Android](https://f-droid.org/zh_Hant/packages/com.fmsys.snapdrop/)|在多個裝置間透過Wifi傳送檔案，雙方使用瀏覽器就能接收。|
 |[KDE Connect](https://f-droid.org/packages/org.kde.kdeconnect_tp/)|讓手機跟電腦傳輸檔案、同步通知、控制簡報、當作遠端滑鼠。|
-|[Codecks](https://github.com/vaddisrinivas/codecks)|將Android手機或平板變成Mac命令面板、藍牙觸控板與自動化控制台。|
 |[LocalSend](https://github.com/localsend/localsend)|跨平台無線傳檔軟體。|
 |[Aria2App](https://github.com/devgianlu/Aria2App)|基於Aria2開發的下載管理器，支援BT種子和斷點續傳。|
 |[LibreTorrent](https://f-droid.org/zh_Hant/packages/org.proninyaroslav.libretorrent/)|BT種子與磁力連結下載器。|
