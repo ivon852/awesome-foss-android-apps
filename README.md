@@ -1,8 +1,10 @@
 # 推薦的好用開源Android APP中文列表
 
-Awesome FOSS Android Apps list (Traditional Chinese) 
+Awesome FOSS Android Apps list (Chinese) 
 
 本列表收錄的好用Android APP，大部分都是自由開源軟體(Free and Open Source)，包含F-Droid與Github的開源專案。
+
+**收錄標準：** 開發者需提供APP完整原始碼，並使用符合自由軟體基金會認可的自由軟體授權條款（如GPL、MPL、BSD、MIT、Apache等）。部分使用開源函式庫，但APP本體閉源發佈的不能算做開源。
 
 F-Droid是由歐洲非營利組織運營的應用程式商店。跟Google Play以及其他應用程式商店不同，F-Droid只接受上架自由軟體APP。而且APK必須由F-Droid伺服器從原始碼建置與簽名，不接受上傳事先編譯好的APK。
 
@@ -48,6 +50,7 @@ Android手機的瀏覽器陣營，大致可以分為Chromium系(Blink)與Firefox
 |[Cromite](https://github.com/uazo/cromite)|基於Chromium開發，Bromite繼承者，支援Adblocker清單、載入ViolentMonkey指令稿、自訂User Agent、檢視網頁原始碼、安裝擴充功能。JavaScript JIT、WebGL、WebRTC預設是停用的，強化安全性與隱私保護，需要到設定裡面手動開啟。開發者另提供vanilla版本的Chromium。|
 |[Helium](https://github.com/jqssun/android-helium-browser)|基於Chromium開發的瀏覽器，非官方的移植，融合了GrapheneOS的Vanadium瀏覽器強化隱私的patch，與電腦版Helium瀏覽器patch的修改版。支援在Android手機安裝電腦版Chrome的擴充套件。|
 |[Brave Browser](https://github.com/brave/brave-browser)|基於Chromium開發的跨平台瀏覽器，有自家的同步帳號機制、搜尋引擎、加密貨幣、VPN功能。支援擋廣告和追蹤器。官方提供F-Droid套件庫。|
+| [Duckduckgo Browser](https://github.com/duckduckgo/Android) | 基於系統WebView開發的瀏覽器，預設使用Duckduckgo作爲搜尋引擎。阻擋網頁追蹤器保護隱私。支援背景播放Youtube。 |
 |[Midori Browser](https://github.com/goastian/midori-android)|獨立開發的跨平台輕量瀏覽器，基於Gecko引擎。支援擋廣告。|
 |[EinkBro](https://f-droid.org/zh_Hant/packages/info.plateaukao.einkbro/)|專為電子紙閱讀器設計的瀏覽器。|
 |[TVBro](https://github.com/truefedex/tv-bro)|專為Android TV設計的擋廣告瀏覽器。|
@@ -67,8 +70,9 @@ Android手機的瀏覽器陣營，大致可以分為Chromium系(Blink)與Firefox
 |[Clash.Meta for Android](https://github.com/MetaCubeX/ClashMetaForAndroid)|翻牆APP。|
 |[v2rayNG](https://github.com/2dust/v2rayNG)|翻牆APP。|
 |[迷霧通 Geph](https://github.com/geph-official/geph-android)|愛沙尼亞Gephyra OÜ公司販售的VPN服務，使用自有的協定繞過網路審查，主要針對中國翻牆用戶設計，提供低速免費方案。|
-|[Proton VPN](https://f-droid.org/zh_Hant/packages/ch.protonvpn.android/)|Proton公司販售的隱私VPN服務，支援KillSwitch和Port Forwarding。|
+|[Proton VPN](https://f-droid.org/zh_Hant/packages/ch.protonvpn.android/)|Proton公司販售的隱私VPN服務，支援KillSwitch和Port Forwarding，可用自研協定反審查。|
 |[Mullvad VPN](https://f-droid.org/zh_Hant/packages/net.mullvad.mullvadvpn/)|Mullvad公司販售的隱私VPN服務，不論訂閱多久時間，一個週期都是公道價5美元，支援加密貨幣付款。註冊帳號不需要電子郵件，而是一串代碼組成。|
+| [IVPN](https://github.com/ivpn/android-app) | 直布羅陀的公司經營的VPN，需付費。 |
 |[Orbot: Tor for Android](https://orbot.app/en/)|讓手機使用全域Tor連線。|
 |[Tailscale](https://f-droid.org/zh_Hant/packages/com.tailscale.ipn/)|內網穿透軟體。可以自架中繼伺服器。|
 |[ZeroTier-Fix](https://github.com/kaaass/ZerotierFix)|內網穿透軟體。ZeroTier官方的APP是專有軟體，此為逆向工程建置的版本，允許連接到自架的Moon中繼伺服器。|
@@ -90,9 +94,13 @@ Android手機的瀏覽器陣營，大致可以分為Chromium系(Blink)與Firefox
 |[QUIK SMS](https://f-droid.org/zh_Hant/packages/dev.octoshrimpy.quik.fdroid/)|簡訊APP，支援文字轉語音，使用第三方提供的電話號碼封鎖名單。|
 |[Thunderbird](https://f-droid.org/zh_Hant/packages/net.thunderbird.android/)|跨平台電郵客戶端。|
 |[K-9 Mail](https://f-droid.org/zh_Hant/packages/com.fsck.k9/)|支援多個帳號的電郵APP。|
-|[Protonmail](https://github.com/ProtonMail/android-mail)|加密電子郵件Protonmail的官方客戶端。|
+|[Protonmail](https://github.com/ProtonMail/android-mail)|瑞士加密電子郵件Protonmail的官方客戶端。|
+|[Tutanota](https://f-droid.org/zh_Hant/packages/de.tutao.tutanota/) | 德國公司經營的加密電子郵件服務。 |
 |[Forkgram](https://f-droid.org/packages/org.forkgram.messenger/)|Telegram官方客戶端修改版，做了一些便利小修改，例如預設啟用「為所有人刪除」，不會蒐集使用者資料。|
-|[Elements](https://f-droid.org/packages/im.vector.app/)|存取群組聊天Elements.io的官方客戶端，支援Matrix通訊協定。|
+|[Elements X](https://f-droid.org/packages/io.element.android.x/)|存取群組聊天Elements.io的官方客戶端，支援Matrix通訊協定。|
+| [FluffyChat](https://f-droid.org/zh_Hant/packages/chat.fluffy.fluffychat/)  | 非營利組織開發的，支援Matrix協定的點對點加密聊天APP。 |
+| [SimpleX](https://f-droid.org/zh_Hant/packages/chat.simplex.app/)  | 點對點加密通訊軟體，使用雙棘輪加密反竊聽，註冊不需要電子郵件或電話號碼。 |
+| [Signal](https://github.com/signalapp/signal-android)  | 非營利組織經營的點對點加密通訊軟體，使用雙棘輪加密反竊聽。註冊需要電話號碼。 |
 
 
 ## 主題裝飾
@@ -129,21 +137,33 @@ Android手機的瀏覽器陣營，大致可以分為Chromium系(Blink)與Firefox
 
 |名稱|簡介|
 |---|---|
+| [Simplenote](hhttps://github.com/automattic/simplenote-android) | 跨平台Markdown筆記軟體，有網頁版。可以把筆記公開成網頁。 |
+| [Standard Notes](https://f-droid.org/packages/com.standardnotes/) | 跨平台Markdown筆記軟體，有網頁版。伺服器能夠自架。可以把筆記公開到Listed的網址，還能寄送電子報。 |
+|[Joplin](https://github.com/laurent22/joplin)|跨平台筆記軟體，使用Markdown與手寫筆儲存筆記，提供多種雲端同步方案，支援點對點加密筆記。|
+|[Saber Notes](https://github.com/saber-notes/saber)|跨平台筆記軟體，以手寫筆記為主，支援嵌入PDF。|
+|[AFFiNE](https://github.com/toeverything/AFFiNE)| 跨平台的知識管理軟體，提供筆記、手寫白板、心智圖、月曆、看板功能，支援多人協作。|
+|[思源筆記 SiYuan](https://f-droid.org/zh_Hant/packages/org.b3log.siyuan/)|跨平台個人知識管理系統，提供Markdown和區塊式編輯，還有許多心智圖模板，伺服器能夠自架。|
+| [Logseq](https://f-droid.org/zh_Hant/packages/com.logseq.app/) | 條列式筆記管理軟體，可以繪製筆記關聯圖，支援Markdown。|
+| [Notesnook](https://github.com/streetwriters/notesnook) | 跨平臺零知識加密的筆記軟體，支援雙向筆記。 |
+| [TriliumDroid](https://github.com/FliegendeWurst/TriliumDroid)  | Trilium客戶端，需要連線到遠端伺服器。跨平台個人知識管理系統。 |
+| [AnyType](https://github.com/anyproto/anytype-kotlin)  | 跨平台知識管理工具，可以建立筆記關聯圖。 |
+| [AppFlowy](https://github.com/AppFlowy-IO/AppFlowy)  |跨平台知識管理工具，多人協作筆記軟體，支援看板管理。 |
 |[LibreOffice Viewer](https://f-droid.org/zh_Hant/packages/org.documentfoundation.libreoffice/)|文件基金會官方推出的ODF檢視器，可檢視和編輯.odt、.ods、.odp文件。|
 |[Collabora Office](https://www.collaboraonline.com/collabora-office-android-ios/)|Collabora公司基於LibreOffice開發的手機文件編輯器，支援常見Office檔案格式和PDF檔，可檢視和編輯.odt、.ods、.odp文件。|
 |[OpenDocument Reader](https://f-droid.org/zh_Hant/packages/at.tomtasche.reader/)|Stefl und Taschauer OG.公司維護的APP，可檢視和編輯.odt、.ods、.odp文件。|
 |[Librera Reader](https://f-droid.org/packages/com.foobnix.pro.pdf.reader/)|功能豐富的閱讀器，可開啟大多數格式的電子書，存取雲端硬碟的書籍。|
 |[KOReader](https://f-droid.org/en/packages/org.koreader.launcher.fdroid/)|適合電子紙使用的電子書閱讀器。支援PDF、DjVu、EPUB、FB2、CBZ格式。|
 |[MJ PDF](https://github.com/mudlej/mj_pdf)|簡單又省資源的PDF閱讀器。|
-|[OCR](https://f-droid.org/zh_Hant/packages/io.github.subhamtyagi.ocr/)|從圖片中識別文字，使用Google Tesseract引擎。|
+| [Readest](https://github.com/readest/readest) | 電子書閱讀器，支援EPUB、1MOBI、KF8 (AZW3)、FB2, CBZ、TXT、PDF格式，能在書本上劃記重點。可存取OPDS/Calibre伺服器。支援跨平臺同步閱讀進度，包括KOReader。 ||
+[OCR](https://f-droid.org/zh_Hant/packages/io.github.subhamtyagi.ocr/)|從圖片中識別文字，使用Google Tesseract引擎。|
 |[Markor](https://f-droid.org/zh_Hant/packages/net.gsantner.markor/)|編輯後可即時預覽成果的Markdown編輯器。|
 |[Fossify Notes](https://f-droid.org/zh_Hant/packages/org.fossify.notes/)|簡易筆記軟體，支援撰寫代辦事項，並在桌面釘選小工具。|
-|[Joplin](https://github.com/laurent22/joplin)|跨平台筆記軟體，使用Markdown與手寫筆儲存筆記，提供多種雲端同步方案，支援點對點加密筆記。|
-|[Saber Notes](https://github.com/saber-notes/saber)|跨平台筆記軟體，以手寫筆記為主，支援嵌入PDF。|
-|[AFFiNE](https://github.com/toeverything/AFFiNE)| 跨平台的知識管理軟體，提供筆記、手寫白板、心智圖、月曆、看板功能，支援多人協作。|
-|[思源筆記 SiYuan](https://f-droid.org/zh_Hant/packages/org.b3log.siyuan/)|跨平台個人知識管理系統，提供Markdown和區塊式編輯，還有許多心智圖模板，伺服器能夠自架。|
 |[DigiPaws](https://f-droid.org/packages/nethical.digipaws/)| 不依賴Google服務的數位健康APP，也可以當家長監護APP用。提供記錄螢幕開啟時間，灰色螢幕，專注模式，禁止開啟特定APP，禁止看短影音，封鎖搜尋成人關鍵字，檢視看了多少短影音。可以利用裝置管理員權限防止解除安裝。|
 |[ActivityWatch](https://f-droid.org/zh_Hant/packages/net.activitywatch.android/)|跨平台的螢幕時間監控軟體。|
+[Mattermost](https://github.com/mattermost/mattermost) | 開源群組通訊系統，類似Slack。 |
+| [Jami](https://f-droid.org/zh_Hant/packages/cx.ring/) | 開源遠端會議應用，點對點加密，使用不需要註冊，伺服器可自架。 |
+| [Jitsi Meet](https://f-droid.org/zh_Hant/packages/org.jitsi.meet/) | 開源遠端會議應用，使用不需要註冊，伺服器可自架。 |
+| [Mumla](https://f-droid.org/zh_Hant/packages/se.lublin.mumla/) | Mumble遊戲語音群聊軟體。|
 
 
 ## 多媒體
@@ -180,7 +200,7 @@ Android手機的瀏覽器陣營，大致可以分為Chromium系(Blink)與Firefox
 |[Fossify Recorder](https://f-droid.org/zh_Hant/packages/org.fossify.voicerecorder/)|簡易錄音機。|
 
 
-## 社群媒體與影音串流
+## 社群媒體
 
 (包含各種網站的客戶端)
 
@@ -198,7 +218,8 @@ Android手機的瀏覽器陣營，大致可以分為Chromium系(Blink)與Firefox
 |[Vitune](https://github.com/25huizengek1/ViTune)|無廣告聆聽Youtube Music，界面十分精簡，支援Android Auto。取代已經停止開發的ViMusic。|
 |[Thorium a PeerTube client](https://f-droid.org/zh_Hant/packages/net.schueller.peertube/)|觀看PeerTube的客戶端，需要手動加入站點。|
 |[LibreTube](https://f-droid.org/zh_Hant/packages/com.github.libretube/)|觀看Youtube影片，無廣告、可下載影片、支援背景播放。透過實例儲存播放清單和訂閱列表。|
-|[Mastodon](https://f-droid.org/zh_Hant/packages/org.joinmastodon.android/)|Mastodon官方客戶端。|
+|[Mastodon](https://f-droid.org/zh_Hant/packages/org.joinmastodon.android/)|去中心化社群媒體Mastodon官方客戶端。|
+|[Bluesky](https://github.com/bluesky-social/social-app)|去中心化社群媒體Bluesky官方客戶端。|
 |[Tusky](https://f-droid.org/zh_Hant/packages/com.keylesspalace.tusky/)|支援多個實例帳號的Mastodon客戶端。|
 |[Flare](https://f-droid.org/zh_Hant/packages/dev.dimension.flare/)|同時檢視Twitter、Mastodon、Misskey、Bluesky、Nostr、RSS的動態消息，整合在同一個時間軸。|
 |[OctoDroid](https://f-droid.org/zh_Hant/packages/com.gh4a/)|第三方Github客戶端，支援線上管理issues等操作。|
@@ -217,8 +238,11 @@ Android手機的瀏覽器陣營，大致可以分為Chromium系(Blink)與Firefox
 |[LoliSnatcher](https://github.com/NO-ob/LoliSnatcher_Droid)|支援多個動漫booru貼圖站的閱讀器，可搭配Hydrus Network使用。|
 |[Hacki for Hacker News](https://f-droid.org/zh_Hant/packages/com.jiaqifeng.hacki/)|Hacker News閱讀器。|
 |[Fluent Reader Lite](https://github.com/yang991178/fluent-reader-lite)|跨平台RSS閱讀器。|
+| [FeedFlow](https://f-droid.org/zh_Hant/packages/com.prof18.feedflow/) | RSS閱讀器。 |
 |[維基百科](https://f-droid.org/zh_Hant/packages/org.wikipedia/)|維基百科官方客戶端，可以快取頁面離線閱讀。|
 |[Kiwix](https://wiki.kiwix.org/wiki/Main_Page/zh-tw)|電子書閱讀器，可以一次下載整個維基百科的頁面離線閱讀(約11GB)，還有很多Wiki類網站的電子書資源，如Minecraft Wiki。使用ZIM格式壓縮頁面。|
+| [Infinity for Reddit](https://github.com/Docile-Alligator/Infinity-For-Reddit) | 無廣告第三方Reddit客戶端。 |
+| [Wordpress](https://apps.apple.com/tw/app/id335703880)  | 官方客戶端，線上存取Wordpress網站。 |
 
 
 ## 導航
@@ -272,6 +296,7 @@ Android手機的瀏覽器陣營，大致可以分為Chromium系(Blink)與Firefox
 |[樸實注音鍵盤](https://f-droid.org/zh_Hans/packages/org.ghostsinthelab.apps.guilelessbopomofo/)|基於新酷音輸入法開發的極簡注音輸入法，用起來像微軟的ㄅ半，提供簡繁轉換。|
 |[小企鵝 Fcitx5 for Android](https://github.com/fcitx5-android/fcitx5-android)|移植自Linux系統的輸入法，支援拼音、注音、粵拼、RIME、日文Anthy、韓文Hangul、越南文UniKey、泰文、僧伽羅文等語言。提供簡繁轉換（包括OpenCC），紀錄剪貼簿歷史，打字會積極的提示Emoji，可以自訂主題。|
 |[GCIN](https://play.google.com/store/apps/details?id=com.hyperrate.gcin&hl=zh_TW)|提供倉頡、行列、注音、嘸蝦米、速成、大易輸入法。輸入框很像電腦版微軟新注音，適合接上實體鍵盤使用。雖然是開源軟體不過他們只有在Play商店上架，且需要付費解鎖完整版。|
+| [萊姆輸入法](https://github.com/lime-ime/limeime) | 繁體中文爲主的輸入法，支援注音、倉頡、大易、行列、輕鬆、速成、拼音，並有許氏與倚天鍵盤排列方式。 |
 
 
 ## 遊戲
@@ -282,8 +307,9 @@ Android手機的瀏覽器陣營，大致可以分為Chromium系(Blink)與Firefox
 |---|---|
 |[Habitica](https://github.com/HabitRPG/habitica-android)|將日常待辦事項變成破關RPG，增添生活樂趣。|
 |[Luanti](https://f-droid.org/zh_Hant/packages/net.minetest.minetest/)|舊名Minetest，自由開源的沙盒遊戲，有大量模組可安裝，能把遊戲搞得像Minecraft一樣。如果F-Droid的APK無法啟動，請改到官網下載APK。|
+| [Angel Aura Amethyst](https://github.com/AngelAuraMC/Amethyst-Android) | Java版Minecraft啓動器。 |
 |[SuperTux](https://github.com/SuperTux/supertux/wiki/Download-Portable)|玩法類似超級瑪莉的企鵝遊戲，非官方移植版。難度高。|
-|[SuperTuxKart](https://f-droid.org/zh_Hant/packages/org.supertuxkart.stk/)|自由軟體吉祥物駕駛卡丁車的賽車遊戲，畫面品質優秀。|
+|[SuperTuxKart](https://f-droid.org/zh_Hant/packages/org.supertuxkart.stk/)|自由軟體吉祥物駕駛卡丁車的賽車遊戲，3D畫面品質優秀。|
 |[Tux Rider](https://f-droid.org/zh_Hant/packages/com.drodin.tuxrider/)|企鵝滑雪遊戲。|
 |[Exterme Tux Racer](https://drodin.com/extremetuxracer/)|Tux Rider升級版，細節更多。Android版由droidin移植。|
 |[Endless Sky](https://f-droid.org/zh_Hant/packages/com.github.thewierdnut.endless_mobile/)|以太空為主題的冒險與貿易遊戲。|
@@ -315,12 +341,13 @@ Android手機的瀏覽器陣營，大致可以分為Chromium系(Blink)與Firefox
 |[Chaldea](https://f-droid.org/zh_Hant/packages/cc.narumi.chaldea.fdroid/)| 手機遊戲Fate/Grand Order的戰鬥模擬器、素材計算器。|
 |[J2ME Loader](https://f-droid.org/zh_Hant/packages/ru.playsoftware.j2meloader/)| 讓您在Android玩古早功能型手機上的Java小遊戲。 |
 |[ScummVM](https://docs.scummvm.org/en/latest/other_platforms/android.html)| 老遊戲開源引擎的模擬器。 |
-|[RetroArch](https://f-droid.org/zh_Hant/packages/com.retroarch/)| 經典老遊戲模擬器。 |
+|[RetroArch](https://f-droid.org/zh_Hant/packages/com.retroarch/)| 經典家機遊戲模擬器，支援模擬三十款以上復古遊戲主機和電腦系統，例如：MS-DOS、PC-98、Apple Macintosh、Commodore 64、SEGA Staturn、BANDAI WonderSwan、Coleco Vision、Nintendo 64、Sony Playstation等等。 |
 |[PPSSPP](https://f-droid.org/packages/org.ppsspp.ppsspp/)| 著名的PSP掌機模擬器，需要自備ROM。 |
-|[Dolphin Emulator](https://f-droid.org/en/packages/org.dolphinemu.dolphinemu/)| Nitendo Wii模擬器。 |
+|[Dolphin Emulator](https://f-droid.org/packages/org.dolphinemu.dolphinemu/)| Nitendo Wii模擬器。 |
 |[Lemuroid](https://f-droid.org/zh_Hant/packages/com.swordfish.lemuroid/)|基於Libretro開發，Atari、Game Boy、SEGA、PSP、Nitendo 3DS等遊戲主機的模擬器。|
 |[Winlator](https://github.com/brunodev85/winlator)|利用Proot Linux + Box64 + Wine技術，轉譯遊玩Windows exe遊戲。|
 |[Moonlight Game Streaming](https://f-droid.org/en/packages/com.limelight/)|遠端串流遊玩電腦上的遊戲，需要搭配Sunshine伺服器使用。|
+| [osu!](https://github.com/ppy/osu) | 跨平台音樂節奏遊戲。官方沒有上架App Store，需要側載IPA。 |
 
 
 ## 工具程式
@@ -344,7 +371,9 @@ Android手機的瀏覽器陣營，大致可以分為Chromium系(Blink)與Firefox
 |[Snapdrop & PairDrop for Android](https://f-droid.org/zh_Hant/packages/com.fmsys.snapdrop/)|在多個裝置間透過Wifi傳送檔案，雙方使用瀏覽器就能接收。|
 |[KDE Connect](https://f-droid.org/packages/org.kde.kdeconnect_tp/)|讓手機跟電腦傳輸檔案、同步通知、控制簡報、當作遠端滑鼠。|
 |[LocalSend](https://github.com/localsend/localsend)|跨平台無線傳檔軟體。|
+| [AirDash](https://github.com/simonbengtsson/airdash) | 跨平臺傳檔工具。|
 |[Aria2App](https://github.com/devgianlu/Aria2App)|基於Aria2開發的下載管理器，支援BT種子和斷點續傳。|
+| [OnionShare](https://f-droid.org/zh_Hant/packages/org.onionshare.android.fdroid/) | 透過Tor網路匿名分享檔案。|
 |[LibreTorrent](https://f-droid.org/zh_Hant/packages/org.proninyaroslav.libretorrent/)|BT種子與磁力連結下載器。|
 |[Limbo x86 PC Emulator](https://f-droid.org/zh_Hant/packages/com.limbo.emu.main/)|使用QEMU模擬x86電腦虛擬機，特定手機支援pKVM可以全速執行虛擬機。|
 |[Vectras VM](https://github.com/xoureldeen/Vectras-VM-Android)|使用QEMU模擬電腦虛擬機，整合QEMU-3dfx的GPU加速技術。|
