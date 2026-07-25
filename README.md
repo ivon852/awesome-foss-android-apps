@@ -3,6 +3,7 @@
 Awesome FOSS Android Apps list (Chinese) 
 
 本列表收錄的好用Android APP，大部分都是自由開源軟體(Free and Open Source)，包含F-Droid與Github的開源專案。
+<img src="images/awesome-foss-android-apps.webp" width=300>
 
 **收錄標準：** 開發者需提供APP完整原始碼，並使用符合自由軟體基金會認可的自由軟體授權條款（如GPL、MPL、BSD、MIT、Apache等）。部分使用開源函式庫，但APP本體閉源發佈的不能算做開源。
 
@@ -133,7 +134,7 @@ Android手機的瀏覽器陣營，大致可以分為Chromium系(Blink)與Firefox
 
 ## 生產力
 
-(程式碼編輯器、文件編輯器、筆記軟體)
+(文件編輯器、筆記軟體)
 
 |名稱|簡介|
 |---|---|
@@ -198,6 +199,9 @@ Android手機的瀏覽器陣營，大致可以分為Chromium系(Blink)與Firefox
 |[Tux Paint](https://f-droid.org/en/packages/org.tuxpaint/)|兒童繪圖程式。|
 |[Fossify Paint](https://f-droid.org/zh_Hant/packages/org.fossify.paint/)|簡易塗鴉程式。|
 |[Fossify Recorder](https://f-droid.org/zh_Hant/packages/org.fossify.voicerecorder/)|簡易錄音機。|
+|[ScreenStream](https://f-droid.org/zh_Hant/packages/info.dvkr.screenstream/)|透過Wifi串流手機畫面，並用瀏覽器檢視。|
+|[VDO Ninja](https://github.com/steveseguin/vdo.ninja)|讓手機鏡頭與麥克風變成電腦的Webcam，並投影到網頁串流。|
+|[Bluetooth Remote](https://f-droid.org/packages/com.atharok.btremote/)|讓手機變成Android TV的藍芽遙控器。|
 
 
 ## 社群媒體
@@ -296,7 +300,7 @@ Android手機的瀏覽器陣營，大致可以分為Chromium系(Blink)與Firefox
 |[樸實注音鍵盤](https://f-droid.org/zh_Hans/packages/org.ghostsinthelab.apps.guilelessbopomofo/)|基於新酷音輸入法開發的極簡注音輸入法，用起來像微軟的ㄅ半，提供簡繁轉換。|
 |[小企鵝 Fcitx5 for Android](https://github.com/fcitx5-android/fcitx5-android)|移植自Linux系統的輸入法，支援拼音、注音、粵拼、RIME、日文Anthy、韓文Hangul、越南文UniKey、泰文、僧伽羅文等語言。提供簡繁轉換（包括OpenCC），紀錄剪貼簿歷史，打字會積極的提示Emoji，可以自訂主題。|
 |[GCIN](https://play.google.com/store/apps/details?id=com.hyperrate.gcin&hl=zh_TW)|提供倉頡、行列、注音、嘸蝦米、速成、大易輸入法。輸入框很像電腦版微軟新注音，適合接上實體鍵盤使用。雖然是開源軟體不過他們只有在Play商店上架，且需要付費解鎖完整版。|
-| [萊姆輸入法](https://github.com/lime-ime/limeime) | 繁體中文爲主的輸入法，支援注音、倉頡、大易、行列、輕鬆、速成、拼音，並有許氏與倚天鍵盤排列方式。 |
+| [萊姆輸入法LIME](https://github.com/lime-ime/limeime) | 繁體中文爲主的輸入法，支援注音、倉頡、大易、行列、輕鬆、速成、拼音，並有許氏與倚天鍵盤排列方式。詞庫以臺灣用語爲主。提供繁簡轉換、分離式鍵盤、語音輸入。界面有許多自定義按鈕。支援實體鍵盤。 |
 
 
 ## 遊戲
@@ -350,6 +354,19 @@ Android手機的瀏覽器陣營，大致可以分為Chromium系(Blink)與Firefox
 | [osu!](https://github.com/ppy/osu) | 跨平台音樂節奏遊戲。官方沒有上架App Store，需要側載IPA。 |
 
 
+### 程式開發
+
+|名稱|簡介|
+|---|---|
+|[Termux](https://f-droid.org/zh_Hant/packages/com.termux/)|有自己一套套件管理器的終端機模擬器，可執行桌面Linux程式。|
+|[Terminal Emulator](https://f-droid.org/zh_Hant/packages/com.termoneplus/)|終端機模擬器，配合Android Shell使用。|
+|[Acode](https://f-droid.org/zh_Hant/packages/com.foxdebug.acode/)|程式碼編輯器，整合Git操作，支援語法自動偵錯。|
+|[Squircle](https://f-droid.org/zh_Hant/packages/com.blacksquircle.ui/)|程式碼編輯器，支援語法自動偵錯。|
+|[Limbo x86 PC Emulator](https://f-droid.org/zh_Hant/packages/com.limbo.emu.main/)|使用QEMU模擬x86電腦虛擬機，特定手機支援pKVM可以全速執行虛擬機。|
+|[Vectras VM](https://github.com/xoureldeen/Vectras-VM-Android)|使用QEMU模擬電腦虛擬機，整合QEMU-3dfx的GPU加速技術。|
+
+
+
 ## 工具程式
 
  (以及不知道該如何分類的APP)
@@ -375,8 +392,7 @@ Android手機的瀏覽器陣營，大致可以分為Chromium系(Blink)與Firefox
 |[Aria2App](https://github.com/devgianlu/Aria2App)|基於Aria2開發的下載管理器，支援BT種子和斷點續傳。|
 | [OnionShare](https://f-droid.org/zh_Hant/packages/org.onionshare.android.fdroid/) | 透過Tor網路匿名分享檔案。|
 |[LibreTorrent](https://f-droid.org/zh_Hant/packages/org.proninyaroslav.libretorrent/)|BT種子與磁力連結下載器。|
-|[Limbo x86 PC Emulator](https://f-droid.org/zh_Hant/packages/com.limbo.emu.main/)|使用QEMU模擬x86電腦虛擬機，特定手機支援pKVM可以全速執行虛擬機。|
-|[Vectras VM](https://github.com/xoureldeen/Vectras-VM-Android)|使用QEMU模擬電腦虛擬機，整合QEMU-3dfx的GPU加速技術。|
+
 |[Fossify Calendar](https://f-droid.org/zh_Hant/packages/org.fossify.calendar/)|簡易離線月曆APP，可用日月年檢視行程，需要搭配額外的CalDAV同步行事曆。|
 |[KashCal](https://f-droid.org/zh_Hant/packages/org.onekash.kashcal/)|行事曆，支援同步CalDAV與ICS格式的行事曆。|
 |[DAVx⁵](https://f-droid.org/zh_Hant/packages/at.bitfire.davdroid/) | 在背景自動同步CardDAV聯絡人、CalDAV行事曆、WebDAV雲端的APP。|
@@ -384,16 +400,10 @@ Android手機的瀏覽器陣營，大致可以分為Chromium系(Blink)與Firefox
 |[Tasks.org](https://f-droid.org/zh_Hant/packages/org.tasks/)|開源的線上待辦事項APP。|
 |[Bitwarden](https://mobileapp.bitwarden.com/fdroid/repo/)|跨平台密碼管理器，跨裝置同步密碼與自動填入密碼。|
 |[AnkiDroid](https://f-droid.org/packages/com.ichi2.anki/)|用單字卡學語言單字，可配合Anki電腦版使用。|
-|[Termux](https://f-droid.org/zh_Hant/packages/com.termux/)|有自己一套套件管理器的終端機模擬器，可執行桌面Linux程式。|
-|[Terminal Emulator](https://f-droid.org/zh_Hant/packages/com.termoneplus/)|終端機模擬器，配合Android Shell使用。|
-|[Acode](https://f-droid.org/zh_Hant/packages/com.foxdebug.acode/)|程式碼編輯器，整合Git操作，支援語法自動偵錯。|
-|[Squircle](https://f-droid.org/zh_Hant/packages/com.blacksquircle.ui/)|程式碼編輯器，支援語法自動偵錯。|
 |[RustDesk](https://f-droid.org/zh_Hant/packages/com.carriez.flutter_hbb/)|簡單易用的跨平台遠端桌面軟體，伺服器可以自架。|
 |[AVNC](https://f-droid.org/zh_Hant/packages/com.gaurav.avnc/)|VNC遠端桌面檢視器，支援虛擬滑鼠鍵盤。|
 |[bVNC](https://github.com/iiordanov/remote-desktop-clients)|VNC、RDP、SPICE、Proxmox遠端桌面檢視器，支援虛擬滑鼠鍵盤。|
 |[aFreeRDP](https://f-droid.org/zh_Hant/packages/com.freerdp.afreerdp/)|RDP遠端桌面檢視器。|
-|[ScreenStream](https://f-droid.org/zh_Hant/packages/info.dvkr.screenstream/)|透過Wifi串流手機畫面，並用瀏覽器檢視。|
-|[Bluetooth Remote](https://f-droid.org/packages/com.atharok.btremote/)|讓手機變成Android TV的藍芽遙控器。|
 |[IRRemote](https://gitlab.com/divested-mobile/irremote)|使用手機的紅外線遠端控制Android TV。|
 |[Shelter](https://f-droid.org/en/packages/net.typeblog.shelter/)|利用Android的工作設定檔功能，以沙盒形式隔離APP，雙開APP，可另外設定檔案互通。|
 |[Insular](https://f-droid.org/packages/com.oasisfeng.island.fdroid/)|類似Google Play上的"Island APP"，移除不必要的Google組件。利用Android的工作設定檔功能，以沙盒形式隔離APP，選擇性給某些APP啟用VPN連線。|
