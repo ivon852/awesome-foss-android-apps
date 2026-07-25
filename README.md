@@ -4,10 +4,6 @@ Awesome FOSS Android Apps list (Chinese)
 
 本列表收錄的好用Android APP，大部分都是自由開源軟體(Free and Open Source)，包含F-Droid與Github的開源專案。
 
-<p align="center">
-<img src="images/awesome-foss-android-apps.webp" width=300>
-</p>
-
 **收錄標準：** 開發者需提供APP完整原始碼，並使用符合自由軟體基金會認可的自由軟體授權條款（如GPL、MPL、BSD、MIT、Apache等）。部分使用開源函式庫，但APP本體閉源發佈的不能算做開源。
 
 F-Droid是由歐洲非營利組織運營的應用程式商店。跟Google Play以及其他應用程式商店不同，F-Droid只接受上架自由軟體APP。而且APK必須由F-Droid伺服器從原始碼建置與簽名，不接受上傳事先編譯好的APK。
