@@ -54,6 +54,9 @@ Android手機的瀏覽器陣營，大致可以分為Chromium系(Blink)與Firefox
 |[Midori Browser](https://github.com/goastian/midori-android)|獨立開發的跨平台輕量瀏覽器，基於Gecko引擎。支援擋廣告。|
 |[EinkBro](https://f-droid.org/zh_Hant/packages/info.plateaukao.einkbro/)|專為電子紙閱讀器設計的瀏覽器。|
 |[TVBro](https://github.com/truefedex/tv-bro)|專為Android TV設計的擋廣告瀏覽器。|
+|[Peel](https://github.com/mazzz1y/peel)| Peel，將網站變成獨立的APP放到桌面。基於Gecko開發。可以安裝Firefox的擴充。能夠隔離網站cookie，並設定每次關閉網站後清除cookie。 |
+| [WebSpace](https://f-droid.org/zh_Hant/packages/org.codeberg.theoden8.webspace) | 將網站變成獨立的APP放到桌面。基於Chromium開發。整合Brave的adblock-rust擋廣告，DNS封鎖網域，還有本機CDN保護隱私。能夠隔離網站cookie。 |
+| [Webview Kiosk](https://f-droid.org/zh_Hant/packages/uk.nktnet.webviewkiosk) | 適合展示單一網站的瀏覽器。使用Android內建的螢幕固定機制鎖定APP，離開瀏覽器需要輸入密碼。可以設定要過濾的網址清單。|
 
 
 ## 網路連線
@@ -285,6 +288,7 @@ Android手機的瀏覽器陣營，大致可以分為Chromium系(Blink)與Firefox
 |[Currencies: Exchange Rate Calculator](https://f-droid.org/en/packages/de.salomax.currencies/)|貨幣匯率轉換器，使用Frankfurter API。|
 |[卡提碼 Catima](https://f-droid.org/zh_Hant/packages/me.hackerchick.catima/)|載具條碼、票卷、卡片管理器。|
 |[開支助手 My Expenses](https://f-droid.org/en/packages/org.totschnig.myexpenses/)|記帳APP，可匯出為QIF、CSV。|
+| [Flow](https://github.com/flow-mn/flow/) | 跨平台記帳APP，可離線使用。|
 
 
 ## 輸入法
