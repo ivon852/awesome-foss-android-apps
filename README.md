@@ -48,7 +48,7 @@ Android手機的瀏覽器陣營，大致可以分為Chromium系(Blink)與Firefox
 |[Tor Browser for Android](https://support.torproject.org/tor-browser/getting-started/installing/#android)|支援Tor連線的瀏覽器，基於Firefox開發，僅有瀏覽器內部走Tor連線。需要啟用Guardian Project套件庫。|
 |[Vanadium](https://github.com/GrapheneOS/Vanadium)|基於Chromium開發的瀏覽器，GrapheneOS推出的瀏覽器，強化安全性與隱私保護。雖然有原始碼但無通用APK，僅限GrapheneOS使用。|
 |[Cromite](https://github.com/uazo/cromite)|基於Chromium開發，Bromite繼承者，支援Adblocker清單、載入ViolentMonkey指令稿、自訂User Agent、檢視網頁原始碼、安裝擴充功能。JavaScript JIT、WebGL、WebRTC預設是停用的，強化安全性與隱私保護，需要到設定裡面手動開啟。開發者另提供vanilla版本的Chromium。|
-|[Titanium Browser](https://github.com/jqssun/android-titanium-browser)|基於Chromium開發的瀏覽器，非官方的移植，融合了GrapheneOS的Vanadium瀏覽器強化隱私的patch，與電腦版Helium瀏覽器patch的修改版。支援在Android手機安裝電腦版Chrome的擴充套件。|
+|[Titanium Browser](https://github.com/jqssun/android-titanium-browser)|基於Chromium開發的瀏覽器，融合了GrapheneOS的Vanadium瀏覽器強化隱私的patch，與電腦版Helium瀏覽器patch的修改版。支援在Android手機安裝電腦版Chrome的擴充套件。|
 |[Brave Browser](https://github.com/brave/brave-browser)|基於Chromium開發的跨平台瀏覽器，有自家的同步帳號機制、搜尋引擎、加密貨幣、VPN功能。支援擋廣告和追蹤器。官方提供F-Droid套件庫。|
 | [Duckduckgo Browser](https://github.com/duckduckgo/Android) | 基於系統WebView開發的瀏覽器，預設使用Duckduckgo作爲搜尋引擎。阻擋網頁追蹤器保護隱私。支援背景播放Youtube。 |
 |[Midori Browser](https://github.com/goastian/midori-android)|獨立開發的跨平台輕量瀏覽器，基於Gecko引擎。支援擋廣告。|
@@ -140,7 +140,7 @@ Android手機的瀏覽器陣營，大致可以分為Chromium系(Blink)與Firefox
 
 |名稱|簡介|
 |---|---|
-| [Simplenote](hhttps://github.com/automattic/simplenote-android) | 跨平台Markdown筆記軟體，有網頁版。可以把筆記公開成網頁。 |
+| [Simplenote](https://github.com/automattic/simplenote-android) | 跨平台Markdown筆記軟體，有網頁版。可以把筆記公開成網頁。 |
 | [Standard Notes](https://f-droid.org/packages/com.standardnotes/) | 跨平台Markdown筆記軟體，有網頁版。伺服器能夠自架。可以把筆記公開到Listed的網址，還能寄送電子報。 |
 |[Joplin](https://github.com/laurent22/joplin)|跨平台筆記軟體，使用Markdown與手寫筆儲存筆記，提供多種雲端同步方案，支援點對點加密筆記。|
 |[Saber Notes](https://github.com/saber-notes/saber)|跨平台筆記軟體，以手寫筆記為主，支援嵌入PDF。|
