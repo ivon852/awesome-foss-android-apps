@@ -304,6 +304,7 @@ Android手機的瀏覽器陣營，大致可以分為Chromium系(Blink)與Firefox
 |[小企鵝 Fcitx5 for Android](https://github.com/fcitx5-android/fcitx5-android)|移植自Linux系統的輸入法，支援拼音、注音、粵拼、RIME、日文Anthy、韓文Hangul、越南文UniKey、泰文、僧伽羅文等語言。提供簡繁轉換（包括OpenCC），紀錄剪貼簿歷史，打字會積極的提示Emoji，可以自訂主題。|
 |[GCIN](https://play.google.com/store/apps/details?id=com.hyperrate.gcin&hl=zh_TW)|提供倉頡、行列、注音、嘸蝦米、速成、大易輸入法。輸入框很像電腦版微軟新注音，適合接上實體鍵盤使用。雖然是開源軟體不過他們只有在Play商店上架，且需要付費解鎖完整版。|
 | [萊姆輸入法LIME](https://github.com/lime-ime/limeime) | 繁體中文爲主的輸入法，支援注音、倉頡、大易、行列、輕鬆、速成、拼音，並有許氏與倚天鍵盤排列方式。詞庫以臺灣用語爲主。提供繁簡轉換、分離式鍵盤、語音輸入。界面有許多自定義按鈕。支援實體鍵盤。 |
+|[AI Dictation](https://github.com/writingmate/aidictation)|跨平台語音輸入工具。在Android文字欄位旁顯示浮動麥克風，支援裝置端離線語音辨識與可選用的雲端轉錄。可從[Google Play](https://play.google.com/store/apps/details?id=com.aidictation.app)安裝。|
 
 
 ## 遊戲
