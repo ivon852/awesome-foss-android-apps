@@ -179,6 +179,7 @@ Android手機的瀏覽器陣營，大致可以分為Chromium系(Blink)與Firefox
 |[mpv-android](https://f-droid.org/en/packages/is.xyz.mpv/)|MPV影片/音樂播放器Android版，支援使用電腦版的設定檔。|
 |[Metro](https://f-droid.org/en/packages/io.github.muntashirakon.Music/)|基於RetroPlayer開發的音樂播放器，支援讀取資料夾。|
 |[Fossify Music Player](https://f-droid.org/zh_Hant/packages/org.fossify.musicplayer/)|簡易音樂播放器，支援依照資料夾模式播放音樂。|
+| [KuruBeats](https://github.com/kurupdevs/KuruBeats)|Free, open-source Android music player for local files and YouTube Music — synced lyrics, no ads, no account.|
 |[CaPods](https://f-droid.org/zh_Hant/packages/eu.darken.capod/)|查看AirPods的電量。|
 |[LibrePods](https://ivonblog.com/posts/librepods-linux/)|將iOS的AirPods自訂功能移植到Android。可以查看AirPods電量，切換降噪模式，在Android與Linux之間使用「接續互通」功能。|
 |[光子相機](https://github.com/bjzhou/PhotonCamera)|相機APP，界面設計類似數位相機。提供多種LUT濾鏡呈現不同相機的色調。除了調整白平衡K數外，尚有調色盤能控制發色風格，以及拉色彩曲線。可以給照片加上拍立得外框。提供手動模式，可設定拍照錄影的成像品質、GPS、HDR等細部設定。支援使用Camera2 API拍攝RAW照片。拍照後能使用AI分析構圖。|
