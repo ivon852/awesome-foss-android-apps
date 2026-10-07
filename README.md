@@ -419,3 +419,4 @@ Android手機的瀏覽器陣營，大致可以分為Chromium系(Blink)與Firefox
 |[xOPS: Cross-Platform CPU Benchmark](https://github.com/maxim-saplin/xOPS-App)|測試CPU運算速度的跑分軟體，支援壓力測試。|
 |[SD Maid 2/SE](https://github.com/d4rken-org/sdmaid-se)|系統垃圾清理軟體，尋找重複檔案。|
 |[Shizuku](https://github.com/RikkaApps/Shizuku)|免電腦免Root，讓APP使用ADB Shell指令。|
+|[OneBox 萬寶盒](https://github.com/wangzhishou/OneBox)|104項功能的工具箱，涵蓋圖片編輯、PDF、OCR、檔案管理、記帳等，內建AI助手能操作這些工具完成任務。資料存在本機、無廣告，Apache-2.0開源（F-Droid審核中）。|
