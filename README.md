@@ -67,6 +67,7 @@ Android手機的瀏覽器陣營，大致可以分為Chromium系(Blink)與Firefox
 |---|---|
 |[Adaway](https://f-droid.org/zh_Hant/packages/org.adaway/)|擋廣告APP，需要Root權限，透過改/etc/hosts來全域擋廣告。無Root也可以使用，改為透過本機DNS來攔阻。|
 |[Blockada](https://f-droid.org/packages/org.blokada.fem.fdroid/)|用DNS(本機VPN)擋廣告的軟體。|
+|[Data Saver](https://github.com/anubisproductions/data-saver-usage-blocker)|顯示各App耗用的行動數據，分開計算前景與背景用量，並可依網路類型分別封鎖，例如只封鎖行動數據而保留Wi-Fi。本身沒有INTERNET權限，無法向外傳送任何資料。|
 |[NetGuard](https://f-droid.org/zh_Hant/packages/eu.faircode.netguard/)|限制APP連網權限。|
 |[OpenVPN](https://github.com/schwabe/ics-openvpn)|OpenVPN協定官方Android版客戶端。|
 |[WireGuard](https://git.zx2c4.com/wireguard-android/about/)|WireGuard協定官方Android版客戶端。|
