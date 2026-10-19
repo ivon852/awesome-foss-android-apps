@@ -236,6 +236,7 @@ Android手機的瀏覽器陣營，大致可以分為Chromium系(Blink)與Firefox
 |[Legado](https://github.com/gedoor/legado)|線上電子書閱讀器。|
 |[木之子漫畫閱讀器 Kinoko Manga Reader](https://f-droid.org/zh_Hant/packages/com.ero.kinoko/)|支援多個線上漫畫平台，可閱覽或下載漫畫。|
 |[Mihon](https://github.com/mihonapp/mihon)|Tachiyomi繼承者，免費漫畫閱讀器，可以線上瀏覽與下載漫畫，支援多個線上平台。有非常多的分支版本，|
+|[Easemic](https://github.com/dirtyfancy/easemic)|採用Kotlin與Jetpack Compose開發的原生漫畫閱讀器，支援本地CBZ/ZIP壓縮檔、自架OPDS伺服器（Komga、Kavita）以及端對端加密雲端硬碟串流與備份（Cloudflare R2、WebDAV、Google Drive、OneDrive）。|
 |[EhViewer overhauled](https://github.com/FooIbar/EhViewer)|採用Material You設計的E-hentai閱讀器。|
 |[JHentai](https://github.com/jiangtian616/JHenTai)|使用Flutter寫成的跨平台E-hentai閱讀器，提供雙頁閱讀界面。|
 |[AnimeTV](https://github.com/amarullz/AnimeTV)|Android TV專用的看動漫APP。|
