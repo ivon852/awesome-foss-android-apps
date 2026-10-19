@@ -242,6 +242,7 @@ Android手機的瀏覽器陣營，大致可以分為Chromium系(Blink)與Firefox
 |[Streamflix](https://github.com/streamflix-reborn/streamflix)|Android TV專用APP，觀看戲劇專用。|
 |[CloudStream](https://github.com/recloudstream/cloudstream)|免費觀看直播的Android TV APP。|
 |[LoliSnatcher](https://github.com/NO-ob/LoliSnatcher_Droid)|支援多個動漫booru貼圖站的閱讀器，可搭配Hydrus Network使用。|
+|[Waifu Deck](https://github.com/fancydirty/waifu-deck)|整合10個動漫插畫與Booru圖源的滑卡式收藏APP，原圖完整保存在本機防刪帖，並支援連接自有的Cloudflare R2、Bunny、Backblaze B2、WebDAV、Google Drive或OneDrive進行用戶端AES-256-GCM點對點加密多機同步與雲端串流看圖。|
 |[Hacki for Hacker News](https://f-droid.org/zh_Hant/packages/com.jiaqifeng.hacki/)|Hacker News閱讀器。|
 |[Fluent Reader Lite](https://github.com/yang991178/fluent-reader-lite)|跨平台RSS閱讀器。|
 | [FeedFlow](https://f-droid.org/zh_Hant/packages/com.prof18.feedflow/) | RSS閱讀器。 |
