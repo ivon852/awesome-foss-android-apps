@@ -279,6 +279,7 @@ Android手機的瀏覽器陣營，大致可以分為Chromium系(Blink)與Firefox
 |[Flexify](https://github.com/brandonp2412/Flexify)|追蹤健身進度。|
 |[Minimalist Pomodoro Timer](https://github.com/adrcotfas/Goodtime?tab=readme-ov-file)|蕃茄鐘小工具。|
 |[Fossify Clock](https://f-droid.org/zh_Hant/packages/org.fossify.clock/)|簡易鬧鐘與計時器。|
+|[Trail Sense](https://f-droid.org/zh_Hant/packages/com.kylecorry.trail_sense/)|使用你手機的感測器協助跋涉荒野|
 
 
 ## 理財
@@ -357,7 +358,7 @@ Android手機的瀏覽器陣營，大致可以分為Chromium系(Blink)與Firefox
 | [osu!](https://github.com/ppy/osu) | 跨平台音樂節奏遊戲。官方沒有上架App Store，需要側載IPA。 |
 
 
-### 程式開發
+## 程式開發
 
 |名稱|簡介|
 |---|---|
@@ -368,6 +369,16 @@ Android手機的瀏覽器陣營，大致可以分為Chromium系(Blink)與Firefox
 |[Limbo x86 PC Emulator](https://f-droid.org/zh_Hant/packages/com.limbo.emu.main/)|使用QEMU模擬x86電腦虛擬機，特定手機支援pKVM可以全速執行虛擬機。|
 |[Vectras VM](https://github.com/xoureldeen/Vectras-VM-Android)|使用QEMU模擬電腦虛擬機，整合QEMU-3dfx的GPU加速技術。|
 
+
+## 行事曆
+
+日期相關
+
+|名稱|簡介|
+|---|---|
+|[Fossify Calendar](https://f-droid.org/zh_Hant/packages/org.fossify.calendar/)|簡易離線月曆APP，可用日月年檢視行程，需要搭配額外的CalDAV同步行事曆。|
+|[KashCal](https://f-droid.org/zh_Hant/packages/org.onekash.kashcal/)|行事曆，支援同步CalDAV與ICS格式的行事曆。|
+|[DAVx⁵](https://f-droid.org/zh_Hant/packages/at.bitfire.davdroid/) | 在背景自動同步CardDAV聯絡人、CalDAV行事曆、WebDAV雲端的APP。|
 
 
 ## 工具程式
@@ -395,10 +406,6 @@ Android手機的瀏覽器陣營，大致可以分為Chromium系(Blink)與Firefox
 |[Aria2App](https://github.com/devgianlu/Aria2App)|基於Aria2開發的下載管理器，支援BT種子和斷點續傳。|
 | [OnionShare](https://f-droid.org/zh_Hant/packages/org.onionshare.android.fdroid/) | 透過Tor網路匿名分享檔案。|
 |[LibreTorrent](https://f-droid.org/zh_Hant/packages/org.proninyaroslav.libretorrent/)|BT種子與磁力連結下載器。|
-
-|[Fossify Calendar](https://f-droid.org/zh_Hant/packages/org.fossify.calendar/)|簡易離線月曆APP，可用日月年檢視行程，需要搭配額外的CalDAV同步行事曆。|
-|[KashCal](https://f-droid.org/zh_Hant/packages/org.onekash.kashcal/)|行事曆，支援同步CalDAV與ICS格式的行事曆。|
-|[DAVx⁵](https://f-droid.org/zh_Hant/packages/at.bitfire.davdroid/) | 在背景自動同步CardDAV聯絡人、CalDAV行事曆、WebDAV雲端的APP。|
 |[Fossify Caculator](https://f-droid.org/zh_Hant/packages/org.fossify.math/)|簡易計算機，可以在桌面放小工具。|
 |[Tasks.org](https://f-droid.org/zh_Hant/packages/org.tasks/)|開源的線上待辦事項APP。|
 |[Bitwarden](https://mobileapp.bitwarden.com/fdroid/repo/)|跨平台密碼管理器，跨裝置同步密碼與自動填入密碼。|
