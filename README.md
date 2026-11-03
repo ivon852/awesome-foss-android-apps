@@ -163,6 +163,7 @@ Android手機的瀏覽器陣營，大致可以分為Chromium系(Blink)與Firefox
 |[Fossify Notes](https://f-droid.org/zh_Hant/packages/org.fossify.notes/)|簡易筆記軟體，支援撰寫代辦事項，並在桌面釘選小工具。|
 |[DigiPaws](https://f-droid.org/packages/nethical.digipaws/)| 不依賴Google服務的數位健康APP，也可以當家長監護APP用。提供記錄螢幕開啟時間，灰色螢幕，專注模式，禁止開啟特定APP，禁止看短影音，封鎖搜尋成人關鍵字，檢視看了多少短影音。可以利用裝置管理員權限防止解除安裝。|
 |[ActivityWatch](https://f-droid.org/zh_Hant/packages/net.activitywatch.android/)|跨平台的螢幕時間監控軟體。|
+|[PlugBrain](https://f-droid.org/zh_Hant/packages/app.plugbrain.android/)|數位健康APP，開啟指定的APP前要先回答一道數學題，越常使用題目越難，一段時間不用就會變簡單。沒有網路權限，不需註冊帳號，無廣告。|
 [Mattermost](https://github.com/mattermost/mattermost) | 開源群組通訊系統，類似Slack。 |
 | [Jami](https://f-droid.org/zh_Hant/packages/cx.ring/) | 開源遠端會議應用，點對點加密，使用不需要註冊，伺服器可自架。 |
 | [Jitsi Meet](https://f-droid.org/zh_Hant/packages/org.jitsi.meet/) | 開源遠端會議應用，使用不需要註冊，伺服器可自架。 |
