@@ -419,3 +419,4 @@ Android手機的瀏覽器陣營，大致可以分為Chromium系(Blink)與Firefox
 |[xOPS: Cross-Platform CPU Benchmark](https://github.com/maxim-saplin/xOPS-App)|測試CPU運算速度的跑分軟體，支援壓力測試。|
 |[SD Maid 2/SE](https://github.com/d4rken-org/sdmaid-se)|系統垃圾清理軟體，尋找重複檔案。|
 |[Shizuku](https://github.com/RikkaApps/Shizuku)|免電腦免Root，讓APP使用ADB Shell指令。|
+|[Armbat](https://github.com/dima-xd/armbat)|在沒有 32 位元 ABI 的 64 位元 Android 裝置上執行 32 位元 ARMv7 應用程式。客體的 Java 程式碼跑在系統的 ART 上，ARMv7 原生碼由基於 Dynarmic 的 JIT 轉譯為 ARM64；內含自己的 ELF32 載入器、Linux ARM EABI 系統呼叫層與取自官方系統映像的 bionic 使用者空間。不需 Root，Apache-2.0。|
