@@ -413,6 +413,7 @@ Android手機的瀏覽器陣營，大致可以分為Chromium系(Blink)與Firefox
 |[Ripple](https://f-droid.org/packages/info.guardianproject.ripple/)|在緊急的時候使用，點選之後會自動清除指定APP的資料。|
 |[Duress](https://github.com/x13a/Duress)|設定一組特殊的解鎖密碼，在緊急的時候使用，觸發了就會清除手機資料。|
 |[Wasted](https://github.com/x13a/Wasted)|利用裝置管理員的權限，遠端鎖定與清除手機資料。|
+|[CleanSlate](https://f-droid.org/packages/com.destructo.botox/)|遠端清除遺失或被盜 Android 裝置的資料，支援無 Google 服務的 ROM。|
 |[CPU Info](https://f-droid.org/zh_Hant/packages/com.kgurgul.cpuinfo/)|檢視手機CPU頻率與溫度。|
 |[CPU Stats](https://github.com/takke/cpustats)|檢視CPU各個核心使用率與頻率的APP。|
 |[Cross Platform Disk Test](https://github.com/maxim-saplin/CrossPlatformDiskTest)|測試硬碟讀寫速度的跑分軟體。|
